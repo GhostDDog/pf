@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <link rel="icon" sizes="64x64" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/styles_loading.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles_desktop.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c448ba6c07.js" crossorigin="anonymous"></script>
+
+    <title>Ohmyfood</title>
+</head>
+
+<body>
+
+    <div id="loading"><i class="fas fa-utensils fa-7x"></i>
+    <div class="shadow"></div></div>
+    <div class="main">
+        <header>
+            <div><img src="images/logo/ohmyfood.png" class="logo" alt="Ohmyfood"></div>
+            <nav>
+                <form>
+                    <div class="centreFind"><span class="material-icons">place</span><input type="search" class="find" placeholder="Paris, Belleville" /></div>
+                </form>
+                <div class="rez">
+                    <div class="t1">
+                        <p>Réservez le menu qui vous convient</p>
+                    </div>
+                    <div class="t2">
+                        <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                    </div>
+                    <div class="buttonExp"><input type="submit" class="exp" value="Explorer nos restaurants"></div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Partie Fonctionnement-->
+        <div class="container-1">
+            <div>
+                <p class="fonctionnement">Fonctionnement</p>
+            </div>
+            <div class="alignFiltres">
+                <div class="filtres">
+                    <div class="circle">1</div><i class="fa fa-mobile"></i>Choisissez un restaurant
+                </div>
+                <div class="filtres">
+                    <div class="circle">2</div><i class="fa fa-list-ul"></i>Composez votre menu
+                </div>
+                <div class="filtres">
+                    <div class="circle">3</div><i class="fas fa-store"></i>Dégustez au restaurant
+                </div>
+            </div>
+        </div>
+        <!--Partie Restaurants // 4 cards -->
+        <div class="container-cards">
+            <p id="t-resto">Restaurants</p>
+            <div class="desktop">
+                <div class="p-1">
+                    <a href="La_palette_du_gout.html">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                    alt="La palette du goût">
+                            </div>
+                            <div class="t-new">
+                                <p>Nouveau</p>
+                            </div>
+                            <div class="card-title">
+                                <p class="para-c">La palette du goût</p>
+                                <p>Ménilmontant</p>
+                                <div class="coeur"><i class="fa fa-heart"></i></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+        <!--FOOTER // 4 page Same + index -->
+        <footer>
+            <div class="p-2">
+                <h3>Romin N</h3>
+                <div>
+                    <div class="fork"><i class="fa fa-utensils"></i><a href="#">Proposer un restaurant</a></div>
+                    <div><i class="fa-solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a></div>
+                    <div><a href="#">Mentions légales</a></div>
+                    <div><a href="mailto:nanartwork@gmail.com">Contact</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
