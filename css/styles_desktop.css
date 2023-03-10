@@ -144,17 +144,6 @@ h3 {
     cursor: pointer;
 }
 
-.circle {
-    display: flex;
-    position: relative;
-    background-color: #9356DC;
-    padding: 4px 10px;
-    border-radius: 50%;
-    color: white;
-    margin-right: 60px;
-    margin-left: -50px;
-}
-
 .filtres:hover {
     color: #00204b;
     filter: hue-rotate(15deg);
@@ -225,7 +214,7 @@ h3 {
     border-radius: 20px;
     padding: 0;
     margin-right: 0;
-    box-shadow: 0 0 10px rgb(192, 191, 191);
+    /* box-shadow: 0 0 10px rgb(85, 85, 85); */
     
 }
 
@@ -258,9 +247,13 @@ h3 {
 a {
     text-decoration: none;
 }
+.card:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 2px 20px rgb(0, 30, 163);
+}
 .card-image:hover img {
     filter: grayscale(80%);
-    transition-duration: 0.5s ;
+    transition-duration: 0.5s;
 }
 
 .para-c {
