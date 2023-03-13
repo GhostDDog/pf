@@ -59,7 +59,7 @@ h3 {
     margin-left: 25px;
 }
 
-.rez {
+.bann-header {
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +85,7 @@ h3 {
 }
 
 /* bouton explorer */
-.exp {
+/* .exp {
     background: linear-gradient(#FF79DA, #9356DC);
     padding: 15px;
     border-radius: 50px;
@@ -106,10 +106,10 @@ h3 {
     filter: hue-rotate(15deg);
     box-shadow: 0px 5px 5px rgb(139, 139, 139);
     transition-duration: 0.5s;
-}
+} */
 
 /* Partie FONCTIONNEMENT */
-.container-1 {
+.menu {
     padding: 30px 0px;
     margin: auto;
    
