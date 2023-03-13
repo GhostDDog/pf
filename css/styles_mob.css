@@ -30,7 +30,7 @@
     }
     
     /* HEADER // LOGO + FORMU VILLE */
-    /* .logo {
+    .logo {
         width: 20%;
         display: flex;
         position: relative;
@@ -38,7 +38,7 @@
         margin-left: auto;
         margin-right: auto;
         padding: 20px 0 20px 0;
-    } */
+    }
     
    .bann-header {
         background-color: #000000;
@@ -197,7 +197,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+        transition-duration: 0.5s;
     }
     
     .card-title {
@@ -214,7 +214,10 @@
         box-shadow: 0 2px 20px rgb(0, 30, 163);
     }
     .card-image:hover img {
-        filter: grayscale(80%);
+        width: 110%;
+        height: 110%;
+        transition-timing-function: ease-in-out;
+        opacity: 0.7;
         transition-duration: 0.5s;
     }
     
