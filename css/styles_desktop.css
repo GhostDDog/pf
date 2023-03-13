@@ -107,7 +107,7 @@ h3 {
 .filtres:hover {
     color: rgb(0, 0, 0);
     /* filter: hue-rotate(15deg); */
-    background-color: #ffffff;
+    background-color: #c1cdf7;
     border-radius: 30px;
     box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);;
     transition-duration: 0.5s;
