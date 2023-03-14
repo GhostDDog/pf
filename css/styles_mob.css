@@ -33,6 +33,7 @@
         color: white;
         text-transform: uppercase;
         text-align: center;
+        width: auto;
     }
 
     /* HEADER // LOGO + FORMU VILLE */
@@ -44,6 +45,9 @@
         margin-left: auto;
         margin-right: auto;
         padding: 20px 0 20px 0;
+    }
+    .fa-arrow-left {
+        display: none;
     }
     
    .bann-header {
@@ -109,6 +113,7 @@
     
     .alignFiltres {
         display: flex;
+        flex-wrap: wrap;
         position: relative;
 
     }
@@ -306,7 +311,10 @@
     .fa-arrow-left {
         color: white;
         display: flex;
-        padding-top: 12px;
+        position: absolute;
+        margin-top: 29px;
+        font-size: 1.5em;
+        margin-left: 5px;
           
     }
     .t2 {
@@ -364,15 +372,14 @@
         display: flex;
         justify-content: center;
         padding: 10px;
-        margin: 0;
+        margin-left: 35px;
         box-shadow: none;
-        width: 90%;
+        width: 70%;
         font-size: 14pt;
         cursor: pointer;
     }
     
     .filtres:hover {
-        
         background-color: #c1cdf7;
         border-radius: 30px;
         box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);

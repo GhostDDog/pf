@@ -301,16 +301,6 @@ footer a:link {
     align-items: center;
     margin-right: 10px;
 }
-
-.fa.fa-utensils,
-.fa-solid.fa-handshake-angle {
-    margin-right: 10px;
-}
-
-.fa-solid.fa-handshake-angle {
-    font-size: 9pt;
-}
-
 h3 {
     letter-spacing: 0.1em;
     font-weight: 500;
