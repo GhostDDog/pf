@@ -29,20 +29,21 @@ h3 {
     padding: 20px;
 }
 
- /* page mentions legals */
+ /* page politique confidentialité */
 
-.container-legal {
+.container-conf {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
+    padding: 150px 350px;
 
 }
- .h2-legal {
+.h2-conf {
     font-family: "Scope One";
     color: white;
 }
-.p-legal {
+.p-conf {
     font-family: "Roboto";
     color: rgb(150, 150, 150);
 }
@@ -258,49 +259,6 @@ a {
     font-weight: 900;
     font-size: 13pt;
 }
-
-/*.fa.fa-heart {
-    display: flex;
-    position: relative;
-    padding-right: 20px;
-    bottom: 50px;
-    float:right;
-    color: transparent;
-    -webkit-text-stroke: 1px rgb(2, 2, 2);
-    font-size: 1.5em;
-    cursor: pointer;
-  }
- 
-  .fa.fa-heart:hover {
-    animation: fadein 2s;
-    transition: 5s;
-    transition-timing-function: ease;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    -webkit-text-stroke: transparent;
-  }
-
-  .fa.fa-heart:hover {
-    animation: fadein 2s;
-  }
-  @keyframes fadein {
-    from {
-        opacity:0%;
-    }
-    to {
-        opacity:100%;
-    }
-}
-
-@-webkit-keyframes fadein {
-    from {
-        opacity:0%;
-    }
-    to {
-        opacity:100%;
-    }
-} */
 
 /* FOOTER */
 

@@ -65,6 +65,24 @@
         padding: 0 10px;
         text-align: center;
     }
+
+     /* page politique confidentialité */
+    .container-conf {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 150px 350px;
+    
+    }
+    .h2-conf {
+        font-family: "Scope One";
+        color: white;
+    }
+    .p-conf {
+        font-family: "Roboto";
+        color: rgb(150, 150, 150);
+    }
     
     /* Partie FONCTIONNEMENT */
     .menu {
@@ -330,20 +348,21 @@
         transition-duration: 0.5s;
     }
 
-     /* page mentions legals */
+     /* page mentions confs */
 
-    .container-legal {
+    .container-conf {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin: auto;
+        border: ;
 
     }
-    .h2-legal {
+    .h2-conf {
         font-family: "Scope One";
         color: white;
     }
-    .p-legal {
+    .p-conf {
         font-family: "Roboto";
         color: rgb(150, 150, 150);
     }
