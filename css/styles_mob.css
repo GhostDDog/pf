@@ -303,7 +303,12 @@
     .logo {
         display: none;
     }
-       
+    .fa-arrow-left {
+        color: white;
+        display: flex;
+        padding-top: 12px;
+          
+    }
     .t2 {
         display: flex;
         flex-wrap: wrap;
