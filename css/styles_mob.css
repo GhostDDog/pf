@@ -329,4 +329,22 @@
         box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);
         transition-duration: 0.5s;
     }
+
+     /* page mentions legals */
+
+    .container-legal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+
+    }
+    .h2-legal {
+        font-family: "Scope One";
+        color: white;
+    }
+    .p-legal {
+        font-family: "Roboto";
+        color: rgb(150, 150, 150);
+    }
 } 
