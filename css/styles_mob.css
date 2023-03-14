@@ -314,7 +314,7 @@
         position: absolute;
         margin-top: 29px;
         font-size: 1.5em;
-        margin-left: 5px;
+        margin-left: 10px;
           
     }
     .t2 {
@@ -372,9 +372,9 @@
         display: flex;
         justify-content: center;
         padding: 10px;
-        margin-left: 35px;
+        margin: 0;
         box-shadow: none;
-        width: 70%;
+        width: 90%;
         font-size: 14pt;
         cursor: pointer;
     }
