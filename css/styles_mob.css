@@ -287,13 +287,14 @@
         text-align: center;
     }
     
-    /* Partie FONCTIONNEMENT */
+    /* Partie MENU */
     .menu {
         padding: 0 0 20px 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row !important;
         justify-content: center;
+        
     }
 
     .mob-menu3 {
@@ -303,8 +304,9 @@
     .alignFiltres {
         display: flex;
         position: relative;
-        margin: 0;
-        padding: 0;
+        flex-direction: row;
+        margin: 10px;
+        padding: 10px;
     }
     .fa-palette, .fa-code, .fa-gamepad {
         margin-right: 5px;
@@ -321,7 +323,7 @@
     }
     
     .filtres:hover {
-        color: rgb(0, 0, 0);
+        
         background-color: #c1cdf7;
         border-radius: 30px;
         box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);
