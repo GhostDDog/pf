@@ -8,7 +8,7 @@
 
 @media screen and (min-width:980px) {
 * {
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", "Roboto Condensed", "Scope One", "sans-serif";
 }
 
 a {
@@ -29,9 +29,29 @@ h3 {
     padding: 20px;
 }
 
+ /* page mentions legals */
+
+.container-legal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+ .h2-legal {
+    font-family: "Scope One";
+    color: white;
+}
+.p-legal {
+    font-family: "Roboto";
+    color: rgb(150, 150, 150);
+}
+
+
 .lorem {
     align-items: center;
 }
+
 
 
 /* HEADER // LOGO + FORMU VILLE */
