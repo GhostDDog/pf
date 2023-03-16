@@ -19,9 +19,8 @@
         font-family: "Roboto", "sans-serif";
     }
     .p-1 {
-        /* padding: 10px;
-        width: 95%; */
-        
+        padding: 10px;
+        width: 95%;    
     }
     
     .p-2 {
@@ -395,13 +394,6 @@
 
      /* page mentions confs */
 
-    .container-conf {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: auto;
-
-    }
     .h2-conf {
         font-family: "Scope One";
         color: white;
