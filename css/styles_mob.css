@@ -124,21 +124,17 @@
         display: flex;
         justify-content: center;
         color: white;
-        background-color: #000000;
         border-radius: 10px;
         padding: 30px;
         box-shadow: 5px 5px 15px rgb(42, 153, 243), -5px -5px 20px rgb(146, 42, 243);
         width: auto;
         font-size: 14pt;
-        margin-left: 10px;
-        margin-right: 10px;
         cursor: pointer;
     }
     
     .filtres:hover {
         color: rgb(0, 0, 0);
-        /* filter: hue-rotate(15deg); */
-        background-color: #c1cdf7;
+        /* background-color: #c1cdf7; */
         border-radius: 30px;
         box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);;
         transition-duration: 0.5s;
@@ -309,14 +305,18 @@
         display: none;
     }
     .fa-arrow-left {
+        background-color: #000000;
+        border-radius: 50%;
+        padding: 5px;
         color: white;
         display: flex;
         position: absolute;
         margin-top: 29px;
         font-size: 1.5em;
         margin-left: 10px;
-          
+        cursor: pointer;
     }
+
     .t2 {
         display: flex;
         flex-wrap: wrap;
@@ -370,11 +370,11 @@
     }   
     .filtres {
         display: flex;
-        justify-content: center;
+        justify-content: center !important;
         padding: 10px;
-        margin: 0;
+        margin: auto;
         box-shadow: none;
-        width: 90%;
+        width: 50%;
         font-size: 14pt;
         cursor: pointer;
     }
@@ -393,7 +393,6 @@
         flex-direction: column;
         flex-wrap: wrap;
         margin: auto;
-        border: ;
 
     }
     .h2-conf {
