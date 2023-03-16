@@ -152,7 +152,7 @@
     .container-cards {
         background-color: #c1cdf7;
         margin: 0 -10px;
-        padding: 0 0px 50px 8px;
+        padding: 0 8px 50px 8px;
     }
     
     .container-cards2 {
@@ -160,7 +160,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        margin: 0 -8px;
+        margin: 0 ;
         padding: 0 8px 50px 8px;
     }
     
@@ -357,7 +357,14 @@
     .mob-menu3 {
         display: none !important;
     }
-
+    .container-cards2 {
+        background-color: #c1cdf7;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 ;
+        padding: 0 0px 50px 8px;
+    }
     .alignFiltres {
         display: flex;
         position: relative;
