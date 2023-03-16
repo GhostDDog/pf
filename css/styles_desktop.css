@@ -5,6 +5,30 @@
 
    Page ACCUEIL version DESKTOP.
 */
+body {
+    font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
+    background-color: black!important;
+}
+* {
+    font-family: "Roboto", "sans-serif";
+}
+p {
+    color: white;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+h3 {
+    font-family: "Shrikhand", "sans-serif";
+}
+
+.p-1 {
+    padding: 10px;
+}
+.p-2 {
+    padding: 20px;
+}
 
 @media screen and (min-width:980px) {
 * {
@@ -180,7 +204,6 @@ h1 {
     padding: 0 8px 50px 8px;
 }
 
-
 .desktop {
     display: block;
     width: 100%;
@@ -269,7 +292,9 @@ a {
 }
 
 /* FOOTER */
-
+.logo_f {
+    display: none;
+}
 footer {
     background-color: #000000;
     background-size: auto;

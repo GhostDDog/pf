@@ -172,8 +172,8 @@
     
     #t-comp {
         display: flex;
-        padding: 50px 0 10px 10px;
-        margin: 0 0 0 30px;
+        padding: 50px 0 10px 0px;
+        margin: 0 0 0 10px;
         font-size: 1.5em;
         font-weight: 900;
         color: #000000;
@@ -294,9 +294,17 @@
     }
     
     }
+@media screen and (min-width:481px) and (max-width:980px) {
+    .logo_f {
+        display: none;
+        }
+    .h3-foot {
+        display: contents;
+        }
+}
 
         /* HEADER // LOGO + MENU en dessous de 480px */
-    @media screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     
     .p-2 {
         padding: 10px 10px 20px 20px;
@@ -304,14 +312,18 @@
     .logo {
         display: none;
     }
+    
     .logo_f {
         width: 15%;
         display: flex;
         justify-content: left;
         margin-left: 10px;
         padding: 15px 0 0 0;
-
     }
+    .h3-foot {
+        display: none;
+    }
+
     .fa-arrow-left {
         background-color: #000000;
         border-radius: 50%;
