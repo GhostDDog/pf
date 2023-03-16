@@ -29,7 +29,9 @@ h3 {
 .p-2 {
     padding: 20px;
 }
-
+.fa-arrow-left {
+    display: none;  
+}
 @media screen and (min-width:981px) {
 * {
     font-family: "Roboto", "Roboto Condensed", "Scope One", "sans-serif";
@@ -240,7 +242,7 @@ h1 {
 }
 .container-cards {
     background-color: #f3ebd0;
-    margin: 0px -8px 10px;
+    margin: -1px -10px 10px -10px;
     padding: 0 8px 50px 8px;
 }
 
@@ -355,11 +357,9 @@ footer a:link {
     color: white !important;
 }
 
-.fork {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 10px;
+.copy {
+    opacity: 0.5;
+    padding-top: 10px;
 }
 h3 {
     letter-spacing: 0.1em;
