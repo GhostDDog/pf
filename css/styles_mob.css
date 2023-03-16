@@ -143,13 +143,13 @@
        
     }
     .container-cards {
-        background-color: #c1cdf7;
+        background-color: #f3ebd0;
         margin: 0 -10px;
         padding: 0 8px 50px 8px;
     }
     
     .container-cards2 {
-        background-color: #c1cdf7;
+        background-color: #f3ebd0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -192,7 +192,7 @@
         flex-wrap: wrap;
         width: auto;
         height: auto;
-        border-radius: 20px;
+        border-radius: 5px;
         padding: 0px;
         margin-right: 0;
         /* box-shadow: 0 0 10px rgb(85, 85, 85); */
@@ -203,7 +203,7 @@
         height: 200px;
         position: relative;
         overflow: hidden;
-        border-radius: 20px 20px 0 0;
+        border-radius: 5px 5px 0 0;
     }
     
     .card-image img {
@@ -296,6 +296,20 @@
     .h3-foot {
         display: contents;
         }
+    .card:hover {
+        transition-duration: 0.3s;
+            /* box-shadow: 0 2px 20px rgb(42, 153, 243); */
+        box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
+                         0 6px 10px rgba(0,0,0,0.23);
+        }
+    #t-graph {
+        display: flex;
+        padding: 50px 0 10px 0px;
+        margin: 0 0 0 10px;
+        font-size: 1.5em;
+        font-weight: 900;
+        color: #000000;
+        }    
 }
 
         /* HEADER // LOGO + MENU en dessous de 480px */
@@ -414,12 +428,12 @@
         color: #000000;
     }
     .container-cards {
-        background-color: #c1cdf7;
+        background-color: #f3ebd0;
         margin: 0 -8px;
         padding: 0 8px 50px 8px;
     }
     .container-cards2 {
-        background-color: #c1cdf7;
+        background-color: #f3ebd0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -432,10 +446,17 @@
         flex-wrap: wrap;
         width: auto;
         height: auto;
-        border-radius: 20px;
+        border-radius: 5px;
         padding: 0px;
         margin-right: 5px;
         /* box-shadow: 0 0 10px rgb(85, 85, 85); */
+    }
+
+    .card:hover {
+        transition-duration: 0.3s;
+        /* box-shadow: 0 2px 20px rgb(42, 153, 243); */
+        box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
+                     0 6px 6px rgba(0,0,0,0.23);
     }
 
      /* page mentions confs */
