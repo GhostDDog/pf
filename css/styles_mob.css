@@ -298,9 +298,20 @@
 
         /* HEADER // LOGO + MENU en dessous de 480px */
     @media screen and (max-width:480px) {
-
+    
+    .p-2 {
+        padding: 10px;
+    }
     .logo {
         display: none;
+    }
+    .logo_f {
+        width: 15%;
+        display: flex;
+        justify-content: left;
+        margin-left: 10px;
+        padding: 15px 0 0 0;
+
     }
     .fa-arrow-left {
         background-color: #000000;
@@ -309,6 +320,7 @@
         color: white;
         display: flex;
         position: absolute;
+        z-index: 1000;
         margin-top: 29px;
         font-size: 1.5em;
         margin-left: 10px;
@@ -351,8 +363,10 @@
         font-family: "Roboto";
         color: rgb(150, 150, 150);
     }
-    /* ----------------------------------- */
-    .mob-menu3 {
+
+    /* modification des boutons du MENU */
+
+    .mob-menu3 { /* 3eme bouton invisible */
         display: none !important;
     }
     
@@ -372,7 +386,7 @@
         padding: 10px;
         margin: auto;
         box-shadow: none;
-        width: 90%;
+        width: 50%;
         font-size: 14pt;
         cursor: pointer;
     }
