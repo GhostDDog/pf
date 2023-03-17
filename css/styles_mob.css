@@ -1,4 +1,4 @@
-/* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
+/* couleurs : Primaire : #f3ebd0, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Roboto, Texte: Roboto.
 
    Fichier validé W3C.
@@ -13,6 +13,12 @@
     
     a {
         color: rgb(255, 255, 255);
+    }
+    .btn-a {
+        color: #000000;
+    }
+    .btn-a:hover {
+        color: white;
     }
     
     h3 {
@@ -45,7 +51,7 @@
         margin-right: auto;
         padding: 20px 0 20px 0;
     }
-    .fa-arrow-left {
+    .fa,.fa-arrow-left {
         display: none;
     }
     
@@ -95,11 +101,23 @@
     }
     
     /* Partie FONCTIONNEMENT */
-    .menu {
+    /* .menu {
         padding: 30px 0px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    } */
+
+    .menu {
+        background-color: #f3ebd0;
+        display: block;
+        padding: 10px 0px 10px 0;
+        margin: 0 -10px 0 -10px;
+        position: -webkit- sticky;
+        position: sticky;
+        z-index: 1000;
+        opacity: 1;
+        top: 0;
     }
 
     /* test bouton */
@@ -164,7 +182,7 @@
         justify-content: center;
 
     }
-    .fa-palette, .fa-code, .fa-gamepad {
+    .fa-palette, .fa-code, .fa-home {
         margin-right: 5px;
     }   
     .filtres {
@@ -328,16 +346,7 @@
         align-items: center;
         margin-right: 10px;
     }
-    
-    .fa.fa-utensils,
-    .fa-solid.fa-handshake-angle {
-        margin-right: 10px;
-    }
-    
-    .fa-solid.fa-handshake-angle {
-        font-size: 9pt;
-    }
-    
+        
     h3 {
         letter-spacing: 0.1em;
         font-weight: 500;
@@ -355,8 +364,9 @@
         transition-duration: 0.3s;
             /* box-shadow: 0 2px 20px rgb(42, 153, 243); */
         box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
-                         0 6px 10px rgba(0,0,0,0.23);
+                     0 6px 10px rgba(0,0,0,0.23);
         }
+
     #t-graph {
         display: flex;
         padding: 50px 0 10px 0px;
@@ -389,11 +399,11 @@
     }
 
     .fa-arrow-left {
-        background-color: #000000;
+        background-color: #f3ebd0;
         border-radius: 50%;
         padding: 5px;
-        color: white;
-        display: flex;
+        color: rgb(0, 0, 0);
+        display: flex !important;
         position: absolute;
         z-index: 1000;
         margin-top: 29px;
@@ -412,34 +422,35 @@
     }
     
     /* Partie MENU */
-    .menu {
+    .menu  {
         padding: 0 0 20px 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row !important;
-        justify-content: center;   
+        justify-content: center;
+        position: initial;   
     }
     /* test bouton */
-.custom-btn {
-    width: auto;
-    color: #ffffff;
-    border-radius: 30px;
-    padding: 10px 25px;
-    /* font-weight: 500; */
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1); */
-    outline: none;
+    .custom-btn {
+        width: auto;
+        color: #000000;
+        border-radius: 30px;
+        padding: 10px 25px;
+        /* font-weight: 500; */
+        background-color: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1); */
+        outline: none;
   }
-.btn-16 {
-    border: none;
-    color: #ffffff;
-  }
+        .btn-16 {
+            border: none;
+            color: #000000;
+        }
  
 /* ----------- */
 
@@ -475,7 +486,7 @@
         margin: 10px;
         padding: 10px;
     }
-    .fa-palette, .fa-code, .fa-gamepad {
+    .fa-palette, .fa-code, .fa-home {
         margin-right: 5px;
     }   
     .filtres {

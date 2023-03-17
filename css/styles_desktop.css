@@ -1,4 +1,4 @@
-/* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
+/* couleurs : Primaire : #f3ebd0, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
 
    Fichier validé W3C.
@@ -30,7 +30,7 @@ h3 {
     padding: 20px;
 }
 .fa-arrow-left {
-    display: none;  
+    display: none !important;  
 }
 @media screen and (min-width:981px) {
 * {
@@ -98,7 +98,7 @@ h1 {
     padding: 20px 0 20px 0;
 }
 .fa-arrow-left {
-    display: none;  
+    display: none !important;
 }
 
 .bann-header {
@@ -137,7 +137,6 @@ h1 {
     position: sticky;
     z-index: 1000;
     opacity: 1;
-    /* box-shadow: 0px 9px 15px rgb(42, 153, 243); */
     top: 0;
 }
 
@@ -149,9 +148,10 @@ h1 {
     
 }
 
-.fa-palette, .fa-code, .fa-gamepad {
+.fa-palette, .fa-code, .fa-home {
     margin-right: 5px;
-} 
+}
+
 /* test bouton */
 .custom-btn {
     width: auto;
