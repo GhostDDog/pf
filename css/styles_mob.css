@@ -1,9 +1,7 @@
-/* couleurs : Primaire : #f3ebd0, Secondaire :#FF79DA, Tertiaire : #99E2D0
-   Fonts : Logo et titres: Roboto, Texte: Roboto.
-
-   Fichier validé W3C.
-
-   Page ACCUEIL version mobile.
+/* couleurs : Primaire : #f3ebd0, Secondaire :#black, Tertiaire : #white
+   Fonts : Roboto, Roboto condensed, Scope One, sans-serif.
+    
+   version mobile.
 */
 
 @media screen and (max-width:980px) {
@@ -13,12 +11,6 @@
     
     a {
         color: rgb(255, 255, 255);
-    }
-    .btn-a {
-        color: #000000;
-    }
-    .btn-a:hover {
-        color: white;
     }
     
     h3 {
@@ -50,9 +42,6 @@
         margin-left: auto;
         margin-right: auto;
         padding: 20px 0 20px 0;
-    }
-    .fa,.fa-arrow-left {
-        display: none;
     }
     
    .bann-header {
@@ -139,11 +128,11 @@
      4px 4px 5px 0px rgba(0,0,0,.1); */
     outline: none;
   }
-.btn-16 {
+.btn-m {
     border: none;
     color: #000000;
   }
-  .btn-16:after {
+  .btn-m:after {
     position: absolute;
     content: "";
     width: 0;
@@ -161,16 +150,16 @@
     transition: all 0.3s ease;
     
   }
-  .btn-16:hover {
+  .btn-m:hover {
     color: #ffffff;
     background-color: #000000;
   }
-  .btn-16:hover:after {
+  .btn-m:hover:after {
     left: auto;
     right: 0;
     width: 100%;
   }
-  .btn-16:active {
+  .btn-m:active {
     top: 2px;
   }
 /* ----------- */
@@ -398,20 +387,6 @@
         display: none;
     }
 
-    .fa-arrow-left {
-        background-color: #f3ebd0;
-        border-radius: 50%;
-        padding: 5px;
-        color: rgb(0, 0, 0);
-        display: flex !important;
-        position: absolute;
-        z-index: 1000;
-        margin-top: 29px;
-        font-size: 1.5em;
-        margin-left: 10px;
-        cursor: pointer;
-    }
-
     .t2 {
         display: flex;
         flex-wrap: wrap;
@@ -447,7 +422,7 @@
         4px 4px 5px 0px rgba(0,0,0,.1); */
         outline: none;
   }
-        .btn-16 {
+        .btn-m {
             border: none;
             color: #000000;
         }

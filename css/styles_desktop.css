@@ -1,9 +1,8 @@
-/* couleurs : Primaire : #f3ebd0, Secondaire :#FF79DA, Tertiaire : #99E2D0
-   Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+/* couleurs : Primaire : #f3ebd0, Secondaire :#black, Tertiaire : #white
+   Fonts : : Roboto, Roboto condensed, Scope One, sans-serif.
 
-   Fichier validé W3C.
 
-   Page ACCUEIL version DESKTOP.
+   version DESKTOP.
 */
 body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
@@ -20,7 +19,7 @@ a {
     color: rgb(255, 255, 255);
 }
 h3 {
-    font-family: "Shrikhand", "sans-serif";
+    font-family: "Roboto", "sans-serif";
 }
 
 .p-1 {
@@ -29,9 +28,7 @@ h3 {
 .p-2 {
     padding: 20px;
 }
-.fa-arrow-left {
-    display: none !important;  
-}
+
 @media screen and (min-width:981px) {
 * {
     font-family: "Roboto", "Roboto Condensed", "Scope One", "sans-serif";
@@ -40,6 +37,7 @@ h3 {
 a {
     color: rgb(255, 255, 255);
 }
+
 
 h3 {
     font-family: "Roboto", "sans-serif";
@@ -97,9 +95,6 @@ h1 {
     margin-right: auto;
     padding: 20px 0 20px 0;
 }
-.fa-arrow-left {
-    display: none !important;
-}
 
 .bann-header {
     background-color: #000000;
@@ -155,7 +150,7 @@ h1 {
 /* test bouton */
 .custom-btn {
     width: auto;
-    color: #000000;
+    color: #000000 ;
     border-radius: 30px;
     padding: 10px 25px;
     /* font-weight: 500; */
@@ -171,11 +166,11 @@ h1 {
      4px 4px 5px 0px rgba(0,0,0,.1); */
     outline: none;
   }
-.btn-16 {
+.btn-m {
     border: none;
     color: #000000;
   }
-  .btn-16:after {
+  .btn-m:after {
     position: absolute;
     content: "";
     width: 0;
@@ -193,18 +188,20 @@ h1 {
     transition: all 0.3s ease;
     
   }
-  .btn-16:hover {
+  .btn-m:hover {
     color: #ffffff;
     background-color: #000000;
   }
-  .btn-16:hover:after {
+  .btn-m:hover:after {
+    color: #ffffff;
     left: auto;
     right: 0;
     width: 100%;
   }
-  .btn-16:active {
+  .btn-m:active {
     top: 2px;
   }
+  
 /* ----------- */
 
 
