@@ -213,6 +213,7 @@ h1 {
     margin: 30px;
     border: 0.3rem solid;
     border-bottom-width: 2rem;
+    box-shadow: -5px 5px 5px rgb(185, 185, 185);
     width: 400px;
     height: 400px;
 }
@@ -236,6 +237,35 @@ h1 {
     color: black;
 }
 
+/* container Mes compétences */
+
+.container-skill {
+    background-color: #f3ebd0;
+    display: block;
+    margin: 0 -8px;
+    padding: 0 8px 20px 8px;
+}
+
+.size-skill{
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#t-skill{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 10px 0px;
+    margin: 0 0 0 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #000000;     
+}
+.fa-code,
+.fa-image,
+.fa-book-open,.fa-image-portrait {
+    font-size: 3em;
+}
 
 /* Container cards*/
 
