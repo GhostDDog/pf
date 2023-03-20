@@ -251,6 +251,9 @@ h1 {
     display: block;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    border: 1px solid black;
     padding: 10px;
 }
 #t-skill{
@@ -265,7 +268,7 @@ h1 {
 .fa-dev,
 .fa-image,
 .fa-book-open,.fa-image-portrait {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 /* Container cards*/
@@ -370,8 +373,8 @@ footer {
     color: white;
     width: auto;
     padding-left: 0;
-    margin: 0 -8px -10px -10px;
-    line-height: 1.5em;
+    margin: 10px -8px -10px -8px;
+    /* line-height: 1.5em; */
 }
 
 footer a {
