@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles_loading.css" />
     <link rel="stylesheet" href="css/styles_desktop.css" />
     <link rel="stylesheet" href="css/styles_mob.css" />
+    <link rel="stylesheet" href="css/locomotive-scroll.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
@@ -24,7 +25,7 @@
     <title>PF (work in progress)</title>
 </head>
 
-<body>
+<body data-scroll-container>
 
     <!-- loader en pause le temps de changer <div id="loading"><i class="fas fa-utensils fa-7x"></i>
     <div class="shadow"></div></div>
@@ -193,6 +194,13 @@
             </div>
         </footer>
     </div>
+    <script src="js/locomotive-scroll.min.js"></script>
+        <script>
+            const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        })();
+    </script>
 </body>
 
 </html>

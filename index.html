@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles_loading.css" />
     <link rel="stylesheet" href="css/styles_desktop.css" />
     <link rel="stylesheet" href="css/styles_mob.css" />
+    <link rel="stylesheet" href="css/locomotive-scroll.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
@@ -24,7 +25,7 @@
     <title>PF (work in progress)</title>
 </head>
 
-<body>
+<body data-scroll-container>
 
     <!-- loader en pause le temps de changer <div id="loading"><i class="fas fa-utensils fa-7x"></i>
     <div class="shadow"></div></div>
@@ -62,15 +63,15 @@
         <!--block A PROPOS-->
         <div class="container-bio">
             <div class="row column p-1">
-                <div class="block-pic">
+                <div data-scroll data-scroll-speed="1" class="block-pic">
                     <img src="assets/pp_final.jpg" class="photo-pp" alt="Romain" width="738px" height="738px">
                 </div>
-                <div class="bio">
-                    <p id="t-propos">A propos</p>
-                        <p> Autodidacte infographiste depuis le début des années 2000. J'ai eu l'occasion de travailler en collaboration avec tout type de métier 
+                <div data-scroll data-scroll-speed="1" class="bio">
+                    <p  id="t-propos">A propos</p>
+                        <p > Autodidacte infographiste depuis le début des années 2000. J'ai eu l'occasion de travailler en collaboration avec tout type de métier 
                             (chanteur, rappeur, dj's, créateurs événementiels, associations, garagiste, centres de formations, streamers, boutique informatique, etc .).</p>
-                        <p>J'ai pris une pause de 12 ans pour pratiquer un autre métier, la sécurité incendie. À mes dépens, je continuais la création d'image pour tout type de personne ayant besoin d'une identité visuelle sans contrepartie de ma part.</p>
-                        <p>En 2021, j'ai décidé de reprendre le chemin de la création à temps complet. J'ai commencé à former au développement web pour élargir mes créations.</p>
+                        <p >J'ai pris une pause de 12 ans pour pratiquer un autre métier, la sécurité incendie. À mes dépens, je continuais la création d'image pour tout type de personne ayant besoin d'une identité visuelle sans contrepartie de ma part.</p>
+                        <p >En 2021, j'ai décidé de reprendre le chemin de la création à temps complet. J'ai commencé à former au développement web pour élargir mes créations.</p>
                 </div>
             </div>    
         </div>
@@ -80,7 +81,7 @@
         </div>
 
         <!--container compétences -->
-        <div class="container-skill">
+        <div data-scroll data-scroll-speed="1" class="container-skill">
             <p id="t-skill">Mes Compétences</p>
             <div class="row column p-1">
                 <div class="size-skill">
@@ -121,6 +122,14 @@
             </div>
         </footer>
     </div>
+    <!-- script -->
+    <script src="js/locomotive-scroll.min.js"></script>
+        <script>
+            const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        })();
+    </script>
 </body>
 
 </html>
