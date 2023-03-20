@@ -164,7 +164,7 @@
   }
 /* ----------- */
     
-    .alignFiltres {
+    .alignMenu {
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -454,7 +454,7 @@
         display: none !important;
     }
     
-    .alignFiltres {
+    .alignMenu {
         display: flex;
         position: relative;
         flex-direction: row;
