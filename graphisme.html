@@ -25,7 +25,7 @@
     <title>PF (work in progress)</title>
 </head>
 
-<body data-scroll-container>
+<body data-scroll data-scroll-container>
 
     <!-- loader en pause le temps de changer <div id="loading"><i class="fas fa-utensils fa-7x"></i>
     <div class="shadow"></div></div>
@@ -33,8 +33,7 @@
         <header>
             <div><img src="assets/Logo_2023.png" class="logo" alt="logo_rn"></div>
             <nav>
-               
-                <div class="bann-header">
+               <div class="bann-header">
                     <!-- <div class="t1">
                         <p>Romain N.</p>
                     </div> -->
@@ -46,7 +45,7 @@
         </header>
 
         <!--Partie Fonctionnement-->
-        <div class="menu">
+        <div class="menu" data-scroll-section>
             <div class="alignMenu">
                 <a href="index.html" class="btn-a"><div class="custom-btn btn-m">
                     <i class="fa fa-home"></i>Accueil
@@ -61,7 +60,7 @@
             </div>
         </div>
         <!--Partie cartes compétences // 3 cards -->
-        <div class="container-cards">
+        <div class="container-cards" data-scroll-section>
             <p id="t-comp">Compétences</p>
                 <div class="row column">
                     <div class="desktop mob">
@@ -92,7 +91,7 @@
                     </div>
                 </div>    
         </div>
-        <div class="lorem">
+        <div class="lorem" data-scroll-section>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Reiciendis labore tempore, harum illum in at voluptatem hic qui itaque ex dicta ratione ducimus numquam officiis temporibus. 
                 Quas dicta aspernatur a?</p>
@@ -111,15 +110,6 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 Eum dolorem illo quia reiciendis nulla ullam recusandae sint dolorum labore? 
                 Saepe rem corrupti quasi ex iure a distinctio quo. Vel, perspiciatis!</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Reiciendis labore tempore, harum illum in at voluptatem hic qui itaque ex dicta ratione ducimus numquam officiis temporibus. 
-                    Quas dicta aspernatur a?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Delectus optio, mollitia iste dolor magnam, explicabo, vel nobis possimus earum reiciendis dignissimos.
-                    Sunt, obcaecati sequi. Unde deleniti itaque minus eaque est.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eum dolorem illo quia reiciendis nulla ullam recusandae sint dolorum labore? 
-                    Saepe rem corrupti quasi ex iure a distinctio quo. Vel, perspiciatis!</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Reiciendis labore tempore, harum illum in at voluptatem hic qui itaque ex dicta ratione ducimus numquam officiis temporibus. 
                     Quas dicta aspernatur a?</p>
@@ -133,7 +123,7 @@
         </div>
 
         <!--ZONE TEST -->
-        <div class="container-cards2">
+        <div class="container-cards2" data-scroll-section>
             <p id="t-graph">Graphisme</p>
             <div class="row">
                 <div class="desktop mob">
@@ -149,7 +139,6 @@
                         </a>
                     </div>
                 </div>
-                
                 <div class="desktop">
                     <div class="p-1">
                         <a href="#t-graph">
@@ -180,7 +169,7 @@
         </div>
         
         <!--FOOTER // 4 page Same + index -->
-        <footer>
+        <footer data-scroll-section>
             <div><a href="index.html"><img src="assets/Logo_2023.png" class="logo_f"  alt="logo_rn"></a></div>
             <div class="p-2">
                 <h3 class="h3-foot">Romain N</h3>

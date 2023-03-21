@@ -31,7 +31,7 @@
     <div class="shadow"></div></div>
     <div class="main"> -->
         <header>
-            <div><img src="assets/Logo_2023.png" class="logo" alt="logo_rn"></div>
+            <div><img src="assets/Logo_2023.png" id="logo" class="logo" alt="logo_rn"></div>
             <nav>
                
                 <div class="bann-header">
@@ -46,7 +46,7 @@
         </header>
 
         <!--Partie Fonctionnement-->
-        <div class="menu">
+        <div class="menu" data-scroll-section>
             <div class="alignMenu">
                 <a href="index.html" class="btn-a"><div class="custom-btn btn-m">
                     <i class="fa fa-home"></i>Accueil
@@ -54,14 +54,14 @@
                 <a href="graphisme.html" class="btn-a"><div class="custom-btn btn-m">
                    <i class="fa fa-palette"></i>Graphisme
                 </div></a>
-                <div class="custom-btn btn-m">
+                <a href="#t-skill" class="btn-a"><div class="custom-btn btn-m">
                     <i class="fa fa-code"></i>Développement
-                </div>
+                </div></a>
                 
             </div>
         </div>
         <!--block A PROPOS-->
-        <div class="container-bio">
+        <div class="container-bio" data-scroll-section>
             <div class="row column p-1">
                 <div data-scroll data-scroll-speed="1" class="block-pic">
                     <img src="assets/pp_final.jpg" class="photo-pp" alt="Romain" width="738px" height="738px">
@@ -81,7 +81,7 @@
         </div>
 
         <!--container compétences -->
-        <div data-scroll data-scroll-speed="1" class="container-skill">
+        <div class="container-skill" data-scroll-section>
             <p id="t-skill">Mes Compétences</p>
             <div class="row column p-1">
                 <div class="size-skill">
@@ -92,7 +92,7 @@
                 <div class="size-skill">
                     <h2>pao / print / web</h2>
                     <i class="fa-solid fa-book-open"></i>
-                    <p>Création magazine, logo, flyer, triptyque, poster, kakemono, overlay, icone, bannière</p>
+                    <p>Création de magazine, logo, flyer, triptyque, poster, kakemono, overlay, icone, bannière</p>
                 </div>
                 <div class="size-skill">
                     <h2>Développement web</h2>
@@ -105,24 +105,26 @@
                     <p>Retouche photo, montage, création de textures (bois, métaux, sables etc ...)</p>
                 </div>
             </div>
+            <div class="page-up"><a href="#logo" title="logo"><i class="fa-solid fa-arrow-up"></i></a></div>
         </div>
         
         <!--FOOTER // 4 page Same + index -->
-        <footer>
+        <footer data-scroll-section>
             <div><a href="index.html"><img src="assets/Logo_2023.png" class="logo_f"  alt="logo_rn"></a></div>
             <div class="p-2">
-                <h3  data-scroll data-scroll-speed="1" class="h3-foot">Romain N</h3>
+                <h3 class="h3-foot">Romain N</h3>
                 <div>
                     <div><a href="poli_conf.html">Politique de confidentialité</a></div>
                     <div><a href="mentions.html">Mentions légales</a></div>
                     <div><a href="#">Contact</a></div>
                     <div class="copy">Copyright © Romain N 2023</div>
                 </div>
+                
             </div>
         </footer>
     </div>
     <!-- script -->
-    <script src="js/locomotive-scroll.min.js"></script>
+    <!-- <script src="js/locomotive-scroll.min.js"></script> -->
         <script>
             const scroll = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-container]'),
