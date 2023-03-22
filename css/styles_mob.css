@@ -171,7 +171,7 @@
     justify-content: center;
 
     }
-.fa-palette, .fa-code, .fa-home {
+.fa-palette, .fa-envelope, .fa-home {
     margin-right: 5px;
     }   
 .filtres {
@@ -228,6 +228,27 @@
     font-weight: 900;
     color: black;
 }
+.dezap1 {
+    animation: fadein 1s;
+  }
+  .dezap2 { 
+    animation: fadein 2s;
+  }
+  .dezap3 { 
+    animation: fadein 3s;
+  }
+  .dezap4 {
+    animation: fadein 4s;
+  }
+  
+  @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+  }
     
 /* Container cards*/
     
@@ -419,7 +440,7 @@
         border: 1px solid black;
         padding: 10px;
     }
-    .fa-code,
+    
     .fa-image,
     .fa-book-open,.fa-image-portrait {
     font-size: 2em;
@@ -563,7 +584,7 @@
         margin: 10px;
         padding: 10px;
     }
-    .fa-palette, .fa-code, .fa-home {
+    .fa-palette, .fa-envelope, .fa-home {
         margin-right: 5px;
     }   
     .filtres {

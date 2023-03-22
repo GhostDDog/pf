@@ -26,6 +26,7 @@ h3 {
     padding: 20px;
 }
 
+
 @media screen and (min-width:981px) {
 * {
     font-family: "Roboto", "Roboto Condensed", "Scope One", "sans-serif";
@@ -145,7 +146,7 @@ h1 {
     
 }
 
-.fa-palette, .fa-code, .fa-home {
+.fa-palette, .fa-envelope, .fa-home {
     margin-right: 5px;
 }
 
@@ -241,6 +242,27 @@ h1 {
     font-weight: 900;
     color: black;
 }
+.dezap1 {
+    animation: fadein 1s;
+  }
+  .dezap2 { 
+    animation: fadein 2s;
+  }
+  .dezap3 { 
+    animation: fadein 3s;
+  }
+  .dezap4 {
+    animation: fadein 4s;
+  }
+  
+  @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+  }
 
 /* container Mes compétences */
 

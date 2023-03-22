@@ -25,11 +25,12 @@
     <title>PF (work in progress)</title>
 </head>
 
-<body data-scroll data-scroll-container>
+<body>
 
     <!-- loader en pause le temps de changer <div id="loading"><i class="fas fa-utensils fa-7x"></i>
     <div class="shadow"></div></div>
     <div class="main"> -->
+        <div id="top"></div>
         <header>
             <div><img src="assets/Logo_2023.png" class="logo" alt="logo_rn"></div>
             <nav>
@@ -45,7 +46,7 @@
         </header>
 
         <!--Partie Fonctionnement-->
-        <div class="menu" data-scroll-section>
+        <div class="menu">
             <div class="alignMenu">
                 <a href="index.html" class="btn-a"><div class="custom-btn btn-m">
                     <i class="fa fa-home"></i>Accueil
@@ -54,13 +55,13 @@
                    <i class="fa fa-palette"></i>Graphisme
                 </div>
                 <div class="custom-btn btn-m">
-                    <i class="fa fa-code"></i>Développement
+                    <i class="fa fa-envelope"></i>Contact
                 </div>
                 
             </div>
         </div>
         <!--Partie cartes compétences // 3 cards -->
-        <div class="container-cards" data-scroll-section>
+        <div class="container-cards">
             <p id="t-comp">Compétences</p>
                 <div class="row column">
                     <div class="desktop mob">
@@ -91,7 +92,7 @@
                     </div>
                 </div>    
         </div>
-        <div class="lorem" data-scroll-section>
+        <div class="lorem">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Reiciendis labore tempore, harum illum in at voluptatem hic qui itaque ex dicta ratione ducimus numquam officiis temporibus. 
                 Quas dicta aspernatur a?</p>
@@ -123,7 +124,7 @@
         </div>
 
         <!--ZONE TEST -->
-        <div class="container-cards2" data-scroll-section>
+        <div class="container-cards2">
             <p id="t-graph">Graphisme</p>
             <div class="row">
                 <div class="desktop mob">
@@ -166,10 +167,11 @@
                     </div>
                 </div>
             </div>
+            <div class="page-up"><a href="#top" title="logo"><i class="fa-solid fa-arrow-up"></i></a></div>
         </div>
         
         <!--FOOTER // 4 page Same + index -->
-        <footer data-scroll-section>
+        <footer>
             <div><a href="index.html"><img src="assets/Logo_2023.png" class="logo_f"  alt="logo_rn"></a></div>
             <div class="p-2">
                 <h3 class="h3-foot">Romain N</h3>
@@ -183,13 +185,13 @@
             </div>
         </footer>
     </div>
-    <script src="js/locomotive-scroll.min.js"></script>
+    <!-- <script src="js/locomotive-scroll.min.js"></script>
         <script>
             const scroll = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-container]'),
             smooth: true
         })();
-    </script>
+    </script> -->
 </body>
 
 </html>
