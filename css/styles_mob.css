@@ -475,26 +475,25 @@
 
     .bl-mid {
         align-items: center;
-        color: white;
-        margin: auto;
+        color: rgb(0, 0, 0);
+        
     }
     .bann_t{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        background-image: url('/assets/bann_test.webp');
-        background-attachment: fixed;
-        background-size: cover;
-        margin: -15px -8px;
-        padding: 0;   
-    }
-    .bann_t::before{
-        content: "";
+        margin: 0 -8px;
+        background: linear-gradient(180deg, rgb(208, 243, 243) 0%, rgb(164, 192, 192) 42%, rgba(71,83,83,1) 72%, rgba(0,0,0,1) 100%);
         background-attachment: fixed;
         background-size: cover;
         background-color: rgba(0, 0, 0, 0.199);
+        position: relative;
+        display: flex;
+          
+    }
+    .bann_t::before{
         margin: -15px -8px;
         padding: 0;   
+    }
+    .mar-1 {
+        margin: 0 20px;
     }
 
 /* --------------------------------- */
@@ -518,6 +517,7 @@
     width: 10px;
     height: 15px;
     padding: 10px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.5em;
