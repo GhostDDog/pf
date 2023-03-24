@@ -588,7 +588,6 @@
         position: relative;
         flex-direction: row;
         margin: 10px;
-        padding: 10px;
         font-size: 2em;
     }
     .custom-btn {
@@ -715,7 +714,8 @@
                      0 6px 6px rgba(0,0,0,0.23);
     }
 
-    .fa-arrow-up{color: black;}
+    /* flèche pour remonter en  haut */
+.fa-arrow-up{color: black;}
 .page-up {
     display: flex;
     justify-content: center;
@@ -726,6 +726,7 @@
     width: 10px;
     height: 15px;
     padding: 10px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.5em;
