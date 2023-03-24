@@ -28,7 +28,12 @@ h3 {
     padding: 10px;
 }
 .p-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    
 }
 
 
@@ -58,9 +63,6 @@ h1 {
     text-align: center;
 }
 
-.p-2 {
-    padding: 20px;
-}
 
 /* HEADER // LOGO + FORMU VILLE */
 
