@@ -501,14 +501,24 @@
     }
 
 /* --------------------------------- */
-    #t-graph {
-        display: flex;
-        padding: 50px 0 10px 0px;
-        margin: 0 0 0 10px;
-        font-size: 1.5em;
-        font-weight: 900;
-        color: #000000;
-        }    
+#t-comp {
+    display: flex;
+    padding: 50px 0 10px 0px;
+    margin: 0 0 0 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #000000;
+    text-transform: uppercase;
+}
+#t-graph {
+    display: flex;
+    padding: 50px 0 10px 0px;
+    margin: 0 0 0 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #000000;
+    text-transform: uppercase;
+    }    
 }
 .fa-arrow-up{color: black;}
 .page-up {
