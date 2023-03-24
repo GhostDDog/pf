@@ -7,6 +7,11 @@
 body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
     background-color: black!important;
+    background-image: radial-gradient(circle, rgba(208,243,243,0.5046393557422969) 0%, rgba(164, 192, 192, 0.493) 42%, rgba(66, 108, 121, 0.5) 72%, rgba(0,0,0,1) 100%), url(/assets/bann_h2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
 }
 * {
     font-family: "Roboto", "sans-serif";
@@ -57,34 +62,16 @@ h1 {
     padding: 20px;
 }
 
- /* page politique confidentialité */
-
-.container-conf {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 150px 350px;
-
-}
-.h2-conf {
-    font-family: "Scope One";
-    color: white;
-}
-.p-conf {
-    font-family: "Roboto";
-    color: rgb(150, 150, 150);
-}
-
-
-.bl-mid {
-    align-items: center;
-    color: white;
-}
-
-
-
 /* HEADER // LOGO + FORMU VILLE */
+/* .bann-h {
+    background: url(/assets/bann_h.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: fill;  
+    
+} */
+
+
 #logo{
     top: fixed;
 }
@@ -236,8 +223,8 @@ h1 {
     font-family: "Roboto condensed", "sans-serif";
     display: flex;
     justify-content: space-around;
-    padding: 30px 0 10px 10px;
-    margin: 10px 30px 0 0px;
+    padding: 30px 0 0px 10px;
+    margin: 0px 30px 0 0px;
     font-size: 1.5em;
     font-weight: 900;
     color: black;
