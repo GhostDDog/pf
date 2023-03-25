@@ -313,7 +313,16 @@
         font-weight: 800;
     
     }
-    
+
+    .c-img{
+        opacity: 0;
+    }
+    .c-img:hover{
+        opacity: 1;
+    }
+    .c-img2:hover{
+        opacity: 0;
+    }
 .card {
         background-color: black;
         flex-direction: row;
