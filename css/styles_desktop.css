@@ -20,6 +20,7 @@ body {
 a {
     color: rgb(255, 255, 255);
 }
+
 h3 {
     font-family: "Roboto", "sans-serif";
 }
@@ -347,7 +348,7 @@ h1 {
 }
 .card-image img {
    object-fit:cover;
-    width: 80%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 50%;
@@ -374,11 +375,11 @@ a {
 }
 .card-image:hover img {
     width: 100%;
-    height: 100%;
+    height: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition-timing-function: ease;
+    transition-timing-function: ease-in;
     transition-duration: 0.5s;
     
 }
