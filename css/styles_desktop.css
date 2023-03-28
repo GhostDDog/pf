@@ -322,7 +322,9 @@ h1 {
     padding: 0;
     margin-right: 0;
     /* box-shadow: 0 0 10px rgb(85, 85, 85); */
-    
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    perspective: 2500px;
 }
 
 .card-image {
@@ -332,6 +334,7 @@ h1 {
     overflow: hidden;
     border-radius: 5px 5px 0 0;
     padding: 0;
+    
 }
 .c-img{
     opacity: 0;
@@ -365,8 +368,9 @@ a {
 .card:hover {
     transition-duration: 0.3s;
     /* box-shadow: 0 2px 20px rgb(42, 153, 243); */
-    box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
-		         0 6px 10px rgba(0,0,0,0.23);
+    box-shadow : 0 10px 10px rgba(0, 0, 0, 0.562), 
+		         0 15px 10px rgba(0, 140, 255, 0.562) !important;
+                 transform: perspective(2400px) translateY(-1%) rotateX(15deg)         
 }
 .card-image:hover img {
     width: 100%;
@@ -376,6 +380,7 @@ a {
     transform: translate(-50%, -50%);
     transition-timing-function: ease;
     transition-duration: 0.5s;
+    
 }
 
 .para-c {
