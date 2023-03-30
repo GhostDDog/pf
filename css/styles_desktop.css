@@ -194,8 +194,9 @@ h1 {
 /* conteneur A PROPOS */
 
 .container-bio {
-    background-color: #f3ebd0;
+    background-color: #6E858A;
     margin: -1px -8px 10px -8px;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     padding: 0 8px 50px 8px;
 }
 .block-pic {
@@ -203,7 +204,7 @@ h1 {
     margin: 30px;
     border: 0.3rem solid;
     border-bottom-width: 2rem;
-    box-shadow: -5px 5px 5px rgb(185, 185, 185);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.322);
     width: 400px;
     height: 400px;
 }
@@ -213,7 +214,7 @@ h1 {
 }
 .bio {
     font-family: "Roboto condensed";
-    color: #000000;
+    color: #ffffff;
     width: 30%;
 }
 #t-propos {
@@ -224,7 +225,7 @@ h1 {
     margin: 0px 30px 0 0px;
     font-size: 1.5em;
     font-weight: 900;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .dezap1 {
     animation: fadein 1s;
