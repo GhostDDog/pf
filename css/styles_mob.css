@@ -275,6 +275,7 @@
         background-color: #f3ebd0;
         margin: 0 -8px;
         padding: 0 8px 50px 8px;
+        box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     }
     
 .container-cards2 {
@@ -284,6 +285,7 @@
         flex-direction: column;
         margin: 0 -8px;
         padding: 0 8px 50px 8px;
+        box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     }
     
     
@@ -355,7 +357,7 @@
         transition-duration: 0.5s;
     }
     
-.card-title {
+.ctle {
         padding: 5px 0 5px 15px;
         line-height: 20px;
     }
@@ -495,7 +497,8 @@
     .bl-mid {
         align-items: center;
         color: rgb(0, 0, 0);
-        
+        box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.582);
+        padding: 50px;
     }
     .bann_t{
         margin: 0 -8px;
@@ -504,8 +507,7 @@
         background-size: cover;
         background-color: rgba(0, 0, 0, 0.199);
         position: relative;
-        display: flex;
-          
+        display: flex;   
     }
     .bann_t::before{
         margin: -15px -8px;
@@ -598,7 +600,6 @@ a {
     transition-timing-function: ease;
     opacity: 0.7;
     transition-duration: 0.5s;
-    
 }
 
 .fa-arrow-up{color: black;}
@@ -775,7 +776,10 @@ a {
 .bl-mid {
     align-items: center;
     color: white;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.582);
     margin: 10px;
+    padding: 30px;
+    
 }
     /* conteneur des cards */
     #t-graph {
@@ -798,6 +802,7 @@ a {
         flex-direction: column;
         margin: 0 -8px;
         padding: 0 8px 20px 8px;
+        box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     }
     .card {
         background-color: black;
