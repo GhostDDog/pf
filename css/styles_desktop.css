@@ -4,8 +4,8 @@
 
     ------------- version DESKTOP.
 
-    Breakpoint : L. 40 (min 1080)
-    Breakpoint : L. 119 (min 981)
+    Breakpoint : L. 44 (min 1080)
+    Breakpoint : L. 123 (min 981)
 
 */
 body {
@@ -146,10 +146,7 @@ h1 {
     text-align: center;
 }
 
-
-/* HEADER // LOGO + FORMU VILLE */
-
-
+/* HEADER // LOGO */
 
 #logo{
     top: fixed;
@@ -239,7 +236,8 @@ h1 {
     border: none;
     color: #000000;
   }
-  .btn-m:after {
+
+.btn-m:after {
     position: absolute;
     content: "";
     width: 0;
@@ -255,21 +253,21 @@ h1 {
      7px 7px 20px 10px rgba(255, 253, 253, 0),
      4px 4px 5px 0px rgba(255, 255, 255, 0);
     transition: all 0.3s ease;
+    }
     
-  }
-  .btn-m:hover {
+.btn-m:hover {
     color: #ffffff;
     background-color: #000000;
-  }
-  .btn-m:hover:after {
+}
+.btn-m:hover:after {
     color: #ffffff;
     left: auto;
     right: 0;
     width: 100%;
-  }
-  .btn-m:active {
+}
+.btn-m:active {
     top: 2px;
-  }
+}
   
 /* ----------- */
 
@@ -396,7 +394,6 @@ h1 {
     margin-left: 30px;
 }
 
-
 .card {
 	background-color: #000;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.445);
@@ -487,7 +484,9 @@ a {
 .logo_f {
     display: none;
 }
+
 .fa-arrow-up{color: black;}
+
 .page-up {
     display: flex;
     justify-content: center;

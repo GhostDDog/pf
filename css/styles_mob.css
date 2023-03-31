@@ -2,6 +2,9 @@
    Fonts : Roboto, Roboto condensed, Scope One, sans-serif.
     
    version mobile.
+
+   Breakpoints : L.7 (max 980) - L.387 (min 481) - L. 593 (max 480)
+
 */
 
 @media screen and (max-width:980px) {
@@ -46,7 +49,7 @@
         width: auto;
     }
 
-    /* HEADER // LOGO + FORMU VILLE */
+/* HEADER // LOGO */
     .logo {
         width: 20%;
         display: flex;
@@ -84,14 +87,13 @@
         top: 0;
     }
 
-    /* ----- menu ----- */
+/* ----- menu ----- */
 
 .custom-btn {
     width: auto;
     color: #000000;
     border-radius: 30px;
     padding: 10px 25px;
-    /* font-weight: 500; */
     background-color: #f3ebd0;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -99,9 +101,6 @@
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
-     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1); */
     outline: none;
   }
 .btn-m {
@@ -153,7 +152,7 @@
 
 
     
-    /* conteneur A PROPOS // page accueil */
+/* container A PROPOS // page accueil */
 
 .container-bio {
     background-color: #6E858A;
@@ -187,7 +186,7 @@
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
-.dezap1 {
+  .dezap1 {
     animation: fadein 1s;
   }
   .dezap2 { 
@@ -330,6 +329,8 @@
         font-size: 13pt;
     }
 
+/* flèche Page UP */
+
     .page-up {
         display: flex;
         justify-content: center;
@@ -396,18 +397,18 @@
     }
     .logo_f {
         display: none;
-        }
+    }
     .h3-foot {
         display: contents;
-        }
+    }
     .card:hover {
         transition-duration: 0.3s;
         box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
                      0 6px 10px rgba(0,0,0,0.23);
-        }
-    /* Block menu */
+    }
 
     /* container compétences accueil */
+
     .container-skill {
         background-color: #f3ebd0;
         margin: 0 -8px;
@@ -589,6 +590,7 @@ a {
 }
 
         /* HEADER // LOGO + MENU en dessous de 480px */
+
 @media screen and (max-width:480px) {
     body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
@@ -599,15 +601,12 @@ a {
     background-size: contain;
     background-attachment: fixed;
     }
-    /* .p-2 {
-        padding: 10px 10px 20px 20px;
-    } */
+    
     .p-2 {
         padding: 10px 10px 20px 20px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        /* padding: 20px; */
         justify-content: center;
     }
     .logo {
@@ -635,7 +634,8 @@ a {
         text-align: center;
     }
     
-    /* Partie MENU */
+/* Partie MENU */
+
     .menu  {
         padding: 0;
         display: flex;
@@ -675,33 +675,8 @@ a {
         margin: 5px 5px;
         
     }
-   
-    /* ----------- */
 
-
-    /* modification des boutons du MENU */
-
-    .mob-menu3 { /* 3eme bouton invisible */
-        display: none !important;
-    }
-    .filtres {
-        display: flex;
-        justify-content: center !important;
-        padding: 10px;
-        margin: auto;
-        box-shadow: none;
-        width: 50%;
-        font-size: 14pt;
-        cursor: pointer;
-    }
-    
-    .filtres:hover {
-        background-color: #c1cdf7;
-        border-radius: 30px;
-        box-shadow: 5px 4px 30px rgb(42, 153, 243), inset -5px -5px 15px rgb(42, 153, 243), inset 5px 5px 20px rgb(146, 42, 243);
-        transition-duration: 0.5s;
-    }
-    /* container Mes compétences */
+/* container Mes compétences */
 
 .container-skill {
     background-color: #f3ebd0;
@@ -730,6 +705,7 @@ a {
     font-weight: 900;
     color: #000000;     
 }
+
 .fa-dev,
 .fa-image,
 .fa-book-open,.fa-image-portrait {
@@ -743,49 +719,20 @@ a {
     padding: 30px;
     
 }
-    /* conteneur des cards */
-    #t-graph {
-        display: flex;
-        padding: 50px 0 10px 0px;
-        margin: 0 0 0 10px;
-        font-size: 1.5em;
-        font-weight: 900;
-        color: #000000;
-    }
-    .container-cards {
-        background-color: #f3ebd0;
-        margin: 0 -8px;
-        padding: 0 8px 50px 8px;
-    }
-    .container-cards2 {
-        background-color: #f3ebd0;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: 0 -8px;
-        padding: 0 8px 20px 8px;
-        box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
-    }
-    .card {
-        background-color: black;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: auto;
-        height: auto;
-        border-radius: 5px;
-        padding: 0px;
-        margin-right: 5px;
-        /* box-shadow: 0 0 10px rgb(85, 85, 85); */
-    }
+/* conteneur des cards */
 
-    .card:hover {
-        transition-duration: 0.3s;
-        /* box-shadow: 0 2px 20px rgb(42, 153, 243); */
-        box-shadow : 0 10px 20px rgba(0,0,0,0.19), 
-                     0 6px 6px rgba(0,0,0,0.23);
-    }
+#t-graph {
+    display: flex;
+    padding: 50px 0 10px 0px;
+    margin: 0 0 0 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #000000;
+}
 
-    /* flèche pour remonter en  haut */
+
+/* flèche Page UP */
+
 .fa-arrow-up{color: black;}
 .page-up {
     display: flex;
@@ -810,18 +757,4 @@ a {
     cursor: pointer;
 }
 
-     /* page mentions confs */
-
-    .h2-conf {
-        font-family: "Scope One";
-        color: white;
-    }
-    .p-conf {
-        font-family: "Roboto";
-        color: rgb(150, 150, 150);
-    }
-    .copy {
-        opacity: 0.5;
-        padding-top: 10px;
-    }
 } 
