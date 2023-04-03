@@ -50,6 +50,9 @@
     }
 
 /* HEADER // LOGO */
+    #logo {
+        margin-top: 150px;
+    }
     .logo {
         width: 20%;
         display: flex;
@@ -675,7 +678,9 @@ a {
         margin: 5px 5px;
         
     }
-
+.container-bio {
+    margin-top: 100px;
+}
 /* container Mes compétences */
 
 .container-skill {

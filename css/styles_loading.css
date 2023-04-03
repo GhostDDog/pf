@@ -6,25 +6,12 @@
 
 
 * {
-    font-family: "Roboto", "sans-serif";
+    font-family: "Scope One", "sans-serif";
 }
 
 a {
     color: black;
 }
-
-h3 {
-    font-family: "Shrikhand", "sans-serif";
-}
-
-.p-1 {
-    padding: 10px;
-}
-
-.p-2 {
-    padding: 20px;
-}
-
 
 /* loader animation */
 
@@ -32,12 +19,15 @@ h3 {
     animation: 3s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
+    margin-top: 50px;
+    
 }
 
 #loading {
+    display: block;
     position: sticky;
     top: 250px;
-    z-index: -1;
+    z-index: -1000;
 }
 .shadow { /*ombre sous le loader*/
     margin-top: 10px;
@@ -47,33 +37,36 @@ h3 {
     margin-right: auto;
     margin-left:auto;
     background-color: white;
-    box-shadow: 0px 0px 4px 2px #9356DC,
-                25px 2px 10px 2px #9356DC inset;
+    box-shadow: 0px 0px 4px 2px #5680dc,
+    25px 2px 10px 2px #2567bd inset;
     opacity: 30%;
     animation: fadeOut 3s;
     -webkit-animation: fadeOut 3s;
     animation-fill-mode: forwards;
   }
 
-.fas.fa-utensils {
-    display: block;
+  .fa-pen{
+    display: flex;
     position: sticky;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 50px;
     visibility: visible;
     width: 110px;
     height: 110px;
-    border: 10px solid #9356DC;
+    border: 10px solid #1f5da3;
     padding: 20px;
     border-radius: 50%;
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    box-shadow: 0px 0px 10px #9356DC inset;
+    background: -webkit-linear-gradient(#1f5da3, #8cb6e6);
+    box-shadow: 0px 0px 10px #7b94b4 inset;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rotate 1s ease-in-out infinite, fadeOut 3s;
     -webkit-animation: rotate 1s ease-in-out infinite, fadeOut 3s;
     animation-fill-mode: forwards;
+    font-size: 6em;
+    align-items: center;
+    justify-content: center;
 
 }
 

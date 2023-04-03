@@ -150,6 +150,7 @@ h1 {
 
 #logo{
     top: fixed;
+    margin-top: 150px;
 }
 .logo {
     width: 10%;
