@@ -10,12 +10,11 @@
 */
 body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
-    background-color: black!important;
     background-image: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url("../assets/banimg.webp");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain !important;
-    background-attachment: fixed;
+    background-size: contain;
+    background-attachment: fixed;    
 }
 * {
     font-family: "Roboto", "sans-serif";
@@ -149,8 +148,7 @@ h1 {
 /* HEADER // LOGO */
 
 #logo{
-    top: fixed;
-    margin-top: 150px;
+   top: fixed;
 }
 .logo {
     width: 10%;
@@ -162,7 +160,7 @@ h1 {
     padding: 20px 0 20px 0;
 }
 
-.bann-header {
+/* .bann-header {
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
@@ -171,7 +169,7 @@ h1 {
     margin-left: -10px;
     margin-right: -8px;
     align-items: center;
-}
+} */
 
 .t1 {
     font-size: 1.5em;
@@ -276,7 +274,7 @@ h1 {
 
 .container-bio {
     background-color: #6E858A;
-    margin: -1px -8px 10px -8px;
+    margin: -1px -8px 0px -8px;
     box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     padding: 0 8px 50px 8px;
 }

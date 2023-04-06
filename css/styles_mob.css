@@ -3,7 +3,7 @@
     
    version mobile.
 
-   Breakpoints : L.7 (max 980) - L.387 (min 481) - L. 593 (max 480)
+   Breakpoints : L.10 (max 980) - L.391 (min 481) - L. 597 (max 480)
 
 */
 
@@ -11,7 +11,7 @@
     body {
         font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
         background-color: black!important;
-        /* background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url("../assets/banimg.webp"); */
+        background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url("../assets/banimg.webp");
         background-repeat: no-repeat;
         background-position: top;
         background-size: fill;
@@ -51,7 +51,7 @@
 
 /* HEADER // LOGO */
     #logo {
-        margin-top: 150px;
+        margin-top: 50px;
     }
     .logo {
         width: 20%;
