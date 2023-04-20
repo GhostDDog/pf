@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <link rel="icon" sizes="64x64" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/styles_desktop.css" />
+    <link rel="stylesheet" href="css/styles_mob.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c448ba6c07.js" crossorigin="anonymous"></script>
+
+    <title>PF (work in progress)</title>
+</head>
+
+<body>
+    <!-- <div id="loading" align="center"><i class="fa-solid fa-pen"></i> 
+        <div class="shadow"></div></div>   -->
+    <div class="main">
+         <header id="top" class="bann-h">
+                <nav>
+                    <div><img src="assets/Logo_2023.png" id="logo" class="logo" alt="logo_rn"></div>
+                    <div>
+                        <div class="t2">
+                            <p>Graphiste print // web</p>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+        <!--Partie Fonctionnement-->
+        <div class="menu">
+            <div class="alignMenu">
+                <a href="index.html" class="btn-a" title="Accueil" aria-label="Accueil"><div class="custom-btn btn-m">
+                    <i class="fa fa-home"></i><span class="hidden">Accueil</span>
+                </div></a>
+                <a href="graphisme.html" class="btn-a" title="graphisme" aria-label="graphisme"><div class="custom-btn btn-m">
+                   <i class="fa fa-palette"></i><span class="hidden">Graphisme</span>
+                </div></a>
+                <a href="mailto:nanartwork@gmail.com" class="btn-a" title="Contact" aria-label="contact" ><div class="custom-btn btn-m">
+                    <i class="fa fa-envelope"></i><span class="hidden">Contact</span>
+                </div></a>
+                
+            </div>
+        </div>
+        <!--block A PROPOS-->
+        <center><h1>Contactez-moi</h1></center>
+        <center><form id="formu" target="_blank" action="https://formspree.io/f/xdovyepa"
+	method="POST"
+	>
+		<div class="form-group">
+		  <label for="name">Nom : </br></label>
+		  <input
+			class="form-control"
+			placeholder="*"
+			id="name"
+			aria-required="true"
+			aria-label="Nom"
+			name="Nom"
+		  />
+		</div>
+		<div class="form-group">
+		  <label for="Email">Email : </br></label>
+		  <input
+			class="form-control"
+			type="email"
+			placeholder="*"
+			id="Email"
+			aria-required="true"
+			aria-label="email"
+			name="Email"
+		  />
+		</div>
+		<div class="form-group">
+		  <label for="Sujet"
+			>Sujet :</br></label
+		  >
+		  <input
+			class="form-control"
+			id="popularité"
+			aria-label="Sujet"
+			name="Sujet"
+		  />
+		</div>
+		<div class="form-group">
+		  <label for="projet">Message :</br></label>
+		  <textarea
+			class="form-control"
+			id="projet"
+			placeholder="*"
+			rows="10"
+			cols="39"
+			aria-required="true"
+			aria-label="Message"
+			name="Message"
+		  ></textarea>
+		</div>
+		<button
+		  class="btn"
+		  type="submit"
+		  aria-label="Envoyer"
+          target="_blank"
+		>
+		  Envoyer
+		</button>
+	</form></center>
+        
+        <!--FOOTER //-->
+        <footer>
+            <div><a href="index.html"><img src="assets/Logo_2023.png" class="logo_f" alt="logo_rn"></a></div>
+            <div class="p-2">
+                <h3 class="h3-foot">Romain N</h3>
+                <p>Portfolio en cours de création, merci de votre compréhension.</p>
+                <div class="copy">Copyright © Romain N 2023</div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+
+</html>

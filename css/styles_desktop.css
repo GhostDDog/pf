@@ -10,7 +10,9 @@
 */
 body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
-    background-image: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url("../assets/banimg.webp");
+    background-image: 
+    /* radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%),  */
+    url("../assets/banimg2.webp");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -49,7 +51,7 @@ h3 {
         position:relative;
         flex-direction: row;
         flex-wrap: wrap;
-        border-radius: 10px;
+        border-radius: 2px !important;
         cursor: pointer;
         perspective: 2500px;
         }
@@ -116,8 +118,40 @@ h3 {
         color: #FFF;
         border-radius: 0 0 10px 10px;
     }
-
+    /* FORMULAIRE */
 }
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+}
+
+label {
+    margin-left: 5px;
+}
+.form-group input{
+    width: 300px;	
+}
+.form-control {
+    border-color: rgba(0, 17, 255, 0.1);
+    border-radius: 10px;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: none;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #fff;
+}
+
+
 
 @media screen and (min-width:981px) {
 * {

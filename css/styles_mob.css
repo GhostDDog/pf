@@ -11,7 +11,7 @@
     body {
         font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
         background-color: black!important;
-        background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url("../assets/banimg.webp");
+        background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url(../assets/banimg2.webp);
         background-repeat: no-repeat;
         background-position: top;
         background-size: fill;
@@ -392,7 +392,7 @@
     body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
     background-color: black!important;
-    background-image: radial-gradient(circle, rgba(208,243,243,0.5046393557422969) 0%, rgba(164, 192, 192, 0.493) 42%, rgba(66, 108, 121, 0.5) 72%, rgba(0,0,0,1) 100%), url(../assets/banimg.webp);
+    /* background-image: radial-gradient(circle, rgba(208,243,243,0.5046393557422969) 0%, rgba(164, 192, 192, 0.493) 42%, rgba(66, 108, 121, 0.5) 72%, rgba(0,0,0,1) 100%), url(../assets/banimg2.webp); */
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
