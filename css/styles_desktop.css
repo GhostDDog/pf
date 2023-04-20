@@ -125,6 +125,7 @@ h3 {
 #bgc-form {
     padding: 20px;
     background-color: black;
+    background-size: auto;
 }
 form {
     display: flex;
@@ -152,16 +153,23 @@ label {
 .btn{
     display: flex;
     background-color: rgb(101, 127, 157);
+    color:white;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 15px 10px;
     cursor: pointer;
     justify-content: space-around;
     width: 33vh;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    transition-duration: 0.3s;
+    font-size: 13pt;
 }
 .btn:hover {
     background-color: #fff;
+    color: black;
+    
+    transition-duration: 0.3s;
 }
 
 
