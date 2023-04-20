@@ -118,23 +118,31 @@ h3 {
         color: #FFF;
         border-radius: 0 0 10px 10px;
     }
-    /* FORMULAIRE */
+    
+}
+
+/* FORMULAIRE */
+#bgc-form {
+    padding: 20px;
+    background-color: black;
 }
 form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 5px;
+    color: #FFF;
 }
 
 label {
     margin-left: 5px;
+    text-align: left !important;
 }
 .form-group input{
     width: 300px;	
 }
 .form-control {
-    border-color: rgba(0, 17, 255, 0.1);
+    border-color: rgba(0, 123, 255, 0.784);
     border-radius: 10px;
     width: auto;
     margin: 5px;
@@ -142,10 +150,15 @@ label {
     box-shadow: none;
 }
 .btn{
-    background-color: aqua;
-    border-radius: 5px;
+    display: flex;
+    background-color: rgb(101, 127, 157);
+    border-radius: 10px;
     padding: 5px 10px;
     cursor: pointer;
+    justify-content: space-around;
+    width: 33vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn:hover {
     background-color: #fff;
