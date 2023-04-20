@@ -12,7 +12,7 @@ body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
     background-image: 
     /* radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%),  */
-    url("../assets/banimg2.webp");
+    url("../assets/banimg3.webp");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -125,7 +125,8 @@ h3 {
 #bgc-form {
     padding: 20px;
     background-color: black;
-    background-size: auto;
+    margin-right: -8px;
+    margin-left: -8px;
 }
 form {
     display: flex;
@@ -212,7 +213,7 @@ h1 {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
 }
 
 /* .bann-header {
@@ -236,7 +237,6 @@ h1 {
 .t2 {
     font-size: 1.2em;
     margin-top: -20px;
-    padding-left: 20px;
     text-align: center;
     color: white;
 }
@@ -328,7 +328,7 @@ h1 {
 /* conteneur A PROPOS */
 
 .container-bio {
-    background-color: #6E858A;
+    background-color: #444c55;
     margin: -1px -8px 0px -8px;
     box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     padding: 0 8px 50px 8px;
@@ -426,14 +426,14 @@ h1 {
     width: auto;
 }
 .container-cards {
-    background-color: #6E858A;
+    background-color: #444c55;
     margin: -1px -8px 10px -8px;
     padding: 0 8px 50px 8px;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.322);
 }
 
 .container-cards2 {
-    background-color: #6E858A;
+    background-color: #444c55;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
