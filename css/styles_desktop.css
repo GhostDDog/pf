@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    background-attachment: fixed;    
+    background-attachment: fixed;  
 }
 * {
     font-family: "Roboto", "sans-serif";
@@ -124,9 +124,13 @@ h3 {
 /* FORMULAIRE */
 #bgc-form {
     padding: 20px;
-    background-color: black;
+    background-color: #444c55;
     margin-right: -8px;
     margin-left: -8px;
+    box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
+}
+#bgc-form h1 {
+    font-family: roboto;
 }
 form {
     display: flex;
@@ -156,6 +160,7 @@ label {
     background-color: rgb(101, 127, 157);
     color:white;
     border-radius: 10px;
+    border: none;
     padding: 15px 10px;
     cursor: pointer;
     justify-content: space-around;
@@ -163,13 +168,13 @@ label {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     transition-duration: 0.3s;
     font-size: 13pt;
 }
 .btn:hover {
     background-color: #fff;
     color: black;
-    
     transition-duration: 0.3s;
 }
 
@@ -330,7 +335,7 @@ h1 {
 .container-bio {
     background-color: #444c55;
     margin: -1px -8px 0px -8px;
-    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     padding: 0 8px 50px 8px;
 }
 .block-pic {
@@ -439,7 +444,7 @@ h1 {
     flex-direction: column;
     margin: 0 -8px;
     padding: 0 8px 50px 8px;
-    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
 }
 
 .desktop {

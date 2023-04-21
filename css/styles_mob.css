@@ -11,7 +11,7 @@
     body {
         font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
         background-color: black!important;
-        background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 80%), url(../assets/banimg2.webp);
+        background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(243, 235, 208, 0.281) 10%, rgba(0, 0, 0, 0.658) 90%), url(../assets/banimg2.webp);
         background-repeat: no-repeat;
         background-position: top;
         background-size: fill;
@@ -51,7 +51,7 @@
 
 /* HEADER // LOGO */
     #logo {
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .logo {
         width: 20%;
@@ -76,6 +76,7 @@
         font-size: 1.2em;
         color: whitesmoke;
         text-align: center;
+        margin-top: -40px;
     }
     
     .menu {
@@ -153,12 +154,37 @@
     margin-right: 5px;
     }   
 
-
+@media screen and (min-width:481px) and (max-width:695px) {
+    .logo {
+        padding: 0 20px 15px 20px;
+    }
+        .alignMenu {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            color: #000000;
+            border-radius: 30px;
+            /* padding: 10px 10px; */
+            background-color: #f3ebd0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            outline: none;
+          }
+          .btn-m:hover {
+            color: #ffffff;
+            background-color: #000000;
+          }
+}
     
 /* container A PROPOS // page accueil */
 
 .container-bio {
-    background-color: #6E858A;
+    background-color: #444c55;
     margin: -1px -8px 10px -8px;
     padding: 0 8px 50px 8px;
     box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.322);
@@ -178,6 +204,7 @@
     font-family: "Roboto condensed";
     color: #ffffff;
     width: 80%;
+    text-align: justify;
 }
 #t-propos {
     font-family: "Roboto condensed", "sans-serif";
@@ -445,7 +472,6 @@
     .bl-mid {
         align-items: center;
         color: rgb(0, 0, 0);
-        box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.582);
         padding: 50px;
     }
     .bann_t{
@@ -597,8 +623,7 @@ a {
 @media screen and (max-width:480px) {
     body {
     font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
-    background-color: black!important;
-    background-image: radial-gradient(circle, rgba(208,243,243,0.5046393557422969) 0%, rgba(164, 192, 192, 0.493) 42%, rgba(66, 108, 121, 0.5) 72%, rgba(0,0,0,1) 100%), url(/assets/bann_h2.jpg);
+    background-color: black !important;
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -621,8 +646,8 @@ a {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        width: 20%;
-        padding: 15px 0 0 0;
+        width: 30%;
+        padding: 0;
     }
     .h3-foot {
         display: none;
@@ -678,9 +703,7 @@ a {
         margin: 5px 5px;
         
     }
-.container-bio {
-    margin-top: 100px;
-}
+
 /* container Mes compétences */
 
 .container-skill {
@@ -719,7 +742,6 @@ a {
 .bl-mid {
     align-items: center;
     color: white;
-    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.582);
     margin: 10px;
     padding: 30px;
     
