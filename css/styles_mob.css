@@ -769,32 +769,34 @@ a {
 /* -----FORMULAIRE----- */
 
 #bgc-form {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #444c55;
     margin-right: -8px;
     margin-left: -8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
 }
 #bgc-form h1 {
+    position: relative;
     font-family: "roboto";
 }
 #formu {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     padding: 5px;
     color: #FFF;
 }
 
 .form-group input{
-    width: auto;	
+    width: auto;
+    height: auto;
+    width: 90%;	
 }
-textarea [name="Message"]{
-    resize : both;
-    min-width : 10px;
-    min-height : 10px;
-    max-width : 50px;
-    max-height : 50px;
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 99% !important;	
+    resize: none;
+    align-items: center;
 }
 .btn{
     display: flex;
@@ -805,10 +807,10 @@ textarea [name="Message"]{
     padding: 15px 10px;
     cursor: pointer;
     justify-content: space-around;
-    width: 33vh;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
     margin-bottom: 50px;
     transition-duration: 0.3s;
     font-size: 13pt;

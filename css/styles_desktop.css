@@ -150,8 +150,18 @@ label {
     margin-left: 5px;
     text-align: left !important;
 }
+.form-group {
+    padding: 5px;
+}
 .form-group input{
     width: 300px;	
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 320px !important;	
+    resize: none;
 }
 .form-control {
     border-radius: 10px;
