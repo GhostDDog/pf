@@ -403,6 +403,8 @@ h1 {
     display: block;
     margin: 0 0px;
     padding: 0 8px 20px 8px;
+    text-align: center;
+    text-wrap:balance;
 }
 
 .size-skill{
@@ -414,6 +416,7 @@ h1 {
     border: 1px solid black;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.158);
     padding: 10px;
+    
 }
 #t-skill{
     display: flex;
