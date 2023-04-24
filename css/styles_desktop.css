@@ -132,6 +132,12 @@ h3 {
 #bgc-form h1 {
     font-family: roboto;
 }
+input {
+    border:0;
+}
+input:focus,textarea:focus{
+    background-color: #f3ebd0;
+}
 form {
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +154,6 @@ label {
     width: 300px;	
 }
 .form-control {
-    border-color: rgba(0, 123, 255, 0.784);
     border-radius: 10px;
     width: auto;
     margin: 5px;
@@ -168,7 +173,7 @@ label {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     transition-duration: 0.3s;
     font-size: 13pt;
 }
@@ -177,7 +182,10 @@ label {
     color: black;
     transition-duration: 0.3s;
 }
+#field {
+    font-style: italic;
 
+}
 
 
 @media screen and (min-width:981px) {
