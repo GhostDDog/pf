@@ -192,10 +192,7 @@ textarea {
     color: black;
     transition-duration: 0.3s;
 }
-#field {
-    font-style: italic;
 
-}
 
 
 @media screen and (min-width:981px) {
@@ -351,7 +348,7 @@ h1 {
 /* conteneur A PROPOS */
 
 .container-bio {
-    background-color: #444c55;
+    background-color: #30353b;
     margin: -1px -8px 0px -8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
     padding: 0 8px 50px 8px;
@@ -368,6 +365,11 @@ h1 {
 .photo-pp {
     width: 100%;
     height: auto;
+    transition-duration: 1s;
+}
+.photo-pp:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
 }
 .bio {
     font-family: "Roboto condensed";
