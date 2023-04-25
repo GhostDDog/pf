@@ -183,8 +183,8 @@
 /* container A PROPOS // page accueil */
 
 .container-bio {
-    background-color: #444c55;
-    margin: -1px -8px 10px -8px;
+    background-color: #30353b;
+    margin: -1px -8px 0 -8px;
     padding: 0 8px 50px 8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
 }
@@ -477,7 +477,7 @@
     }
     .bann_t{
         margin: 0 -8px;
-        background: linear-gradient(180deg, rgb(208, 243, 243) 0%, rgb(164, 192, 192) 42%, rgba(71,83,83,1) 72%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(180deg, rgb(1, 63, 110) 0%, rgb(47, 60, 74) 42%, rgb(71, 74, 83) 72%, #30353b 100%);
         background-attachment: fixed;
         background-size: cover;
         background-color: rgba(0, 0, 0, 0.199);
