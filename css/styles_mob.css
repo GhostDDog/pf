@@ -192,8 +192,8 @@
     display: flex;
     margin: 10px;
     /* border: 0.3rem solid; */
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 }
 .photo-pp {
     width: 100%;
@@ -208,6 +208,7 @@
     font-family: "Roboto condensed";
     color: #ffffff;
     width: 80%;
+    margin-top: -50px;
     text-align: justify;
 }
 #t-propos {
