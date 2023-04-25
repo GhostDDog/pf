@@ -191,13 +191,18 @@
 .block-pic {
     display: flex;
     margin: 10px;
-    border: 0.3rem solid;
+    /* border: 0.3rem solid; */
     width: 50%;
     height: 50%;
 }
 .photo-pp {
     width: 100%;
     height: auto;
+    transition-duration: 1s;
+}
+.photo-pp:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
 }
 .bio {
     font-family: "Roboto condensed";
