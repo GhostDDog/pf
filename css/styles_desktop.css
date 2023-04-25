@@ -357,9 +357,9 @@ h1 {
 .block-pic {
     display: block;
     margin: 30px;
-    border: 0.3rem solid;
+    /* border: 0.3rem solid; */
     border-bottom-width: 2rem;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.322);
+    /* box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.322); */
     width: 400px;
     height: 400px;
 }
