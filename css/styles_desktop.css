@@ -358,7 +358,6 @@ h1 {
     display: block;
     margin: 30px;
     padding-bottom: 50px;
-    /* border: 0.3rem solid; */
     border-bottom-width: 2rem;
     width: 400px;
     height: 400px;
@@ -372,7 +371,6 @@ h1 {
 }
 .photo-pp:hover {
     opacity: 0.5;
-    /* border-radius: 30px; */
     box-shadow: 0px -14px 8px -7px rgba(0, 0, 0, 0);
     transition-duration: 1s;
 }
@@ -380,6 +378,8 @@ h1 {
     font-family: "Roboto condensed";
     color: #ffffff;
     width: 30%;
+    margin-top: 20px;
+    text-wrap: balance;
 }
 #t-propos {
     font-family: "Roboto condensed", "sans-serif";
@@ -459,14 +459,14 @@ h1 {
     width: auto;
 }
 .container-cards {
-    background-color: #444c55;
+    background-color: #30353b;
     margin: -1px -8px 10px -8px;
     padding: 0 8px 50px 8px;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.322);
 }
 
 .container-cards2 {
-    background-color: #444c55;
+    background-color: #30353b;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -474,7 +474,11 @@ h1 {
     padding: 0 8px 50px 8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
 }
-
+#t-graph{
+    color:white !important;
+    font-family: "Roboto";
+    font-weight: 400 !important;
+}
 .desktop {
     display: block;
     width: 100%;
