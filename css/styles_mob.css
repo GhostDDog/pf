@@ -1,4 +1,4 @@
-/* couleurs : Primaire : #f3ebd0, Secondaire :#black, Tertiaire : #white
+/* couleurs : Primaire : #007ca8 (bleu), Secondaire :#30353b (gris foncé), Tertiaire : #white
    Fonts : Roboto, Roboto condensed, Scope One, sans-serif.
     
    version mobile.
@@ -79,7 +79,7 @@
     }
     
     .menu {
-        background-color: #f3ebd0;
+        background-color: #007ca8;
         display: block;
         padding: 10px 0px 10px 0;
         margin: 0 -8px 0 -8px;
@@ -94,10 +94,10 @@
 
 .custom-btn {
     width: auto;
-    color: #000000;
+    color: #ffffff;
     border-radius: 30px;
     padding: 10px 25px;
-    background-color: #f3ebd0;
+    background-color: #007ca8;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -108,7 +108,7 @@
   }
 .btn-m {
     border: none;
-    color: #000000;
+    color: #ffffff;
   }
 .btn-m:after {
     position: absolute;
@@ -160,13 +160,13 @@
         .alignMenu {
             display: flex;
             flex-wrap: wrap;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             width: auto;
             color: #000000;
             border-radius: 30px;
             /* padding: 10px 10px; */
-            background-color: #f3ebd0;
+            background-color: #007ca8;
             cursor: pointer;
             transition: all 0.3s ease;
             position: relative;
@@ -174,7 +174,13 @@
             margin-right: auto;
             outline: none;
           }
-          .btn-m:hover {
+          .hidden {
+            display: none;
+        }
+        .btn-m {
+            font-size: 1.8rem;
+        }
+        .btn-m:hover {
             color: #ffffff;
             background-color: #000000;
           }
@@ -453,7 +459,7 @@
     /* container compétences accueil */
 
     .container-skill {
-        background-color: #f3ebd0;
+        background-color: #30353b;
         margin: 0 -8px;
         padding: 0 8px 20px 8px;
         text-wrap: balance;
@@ -792,7 +798,7 @@ a {
 
 #bgc-form {
     /* padding: 20px; */
-    background-color: #444c55;
+    background-color: #30353b !important;
     margin-right: -8px;
     margin-left: -8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);

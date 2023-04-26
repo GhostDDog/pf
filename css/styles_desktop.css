@@ -1,4 +1,4 @@
-/* couleurs : Primaire : #f3ebd0, Secondaire :#black, Tertiaire : #white
+/* couleurs : Primaire : #007ca8 (bleu), Secondaire :#30353b (gris foncé), Tertiaire : #white
    Fonts : : Roboto, Roboto condensed, Scope One, sans-serif.
 
 
@@ -126,7 +126,7 @@ h3 {
 /* FORMULAIRE */
 #bgc-form {
     padding: 20px;
-    background-color: #444c55;
+    background-color: #30353b;
     margin-right: -8px;
     margin-left: -8px;
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
