@@ -258,7 +258,7 @@
     }
     
 .container-cards2 {
-        background-color: #f3ebd0;
+        background-color: #007ca8;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -677,7 +677,8 @@ a {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        justify-content: center;  
+        justify-content: center;
+        background-color: #007ca8 !important;         
     }
     .fa-palette, .fa-envelope, .fa-home {
         margin-right: 0;
@@ -691,9 +692,10 @@ a {
         flex-direction: row;
         margin: 10px;
         font-size: 2em;
+        
     }
     .custom-btn {
-        color: #000000;
+        color: #ffffff;
         border-radius: 50px;
         padding: 10px 10px;
         margin: auto;
@@ -706,7 +708,7 @@ a {
   }
     .btn-m {
         border: none;
-        color: #000000;
+        color: #ffffff;
         margin: 5px 5px;
         
     }
