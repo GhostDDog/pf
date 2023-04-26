@@ -16,7 +16,8 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    background-attachment: fixed;  
+    background-attachment: fixed;
+    color: white; 
 }
 * {
     font-family: "Roboto", "sans-serif";
@@ -265,7 +266,7 @@ h1 {
 
 /* Partie MENU */
 .menu {
-    background-color: #f3ebd0;
+    background-color: #007ca8;
     display: block;
     padding: 10px 0px 10px 0;
     margin: 0 -8px 0 -8px;
@@ -295,7 +296,7 @@ h1 {
     border-radius: 30px;
     padding: 10px 25px;
     /* font-weight: 500; */
-    background-color: #f3ebd0;
+    background-color: #007ca8;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -309,7 +310,7 @@ h1 {
   }
 .btn-m {
     border: none;
-    color: #000000;
+    color: #ffffff;
   }
 
 .btn-m:after {
@@ -367,7 +368,7 @@ h1 {
     height: auto;
     transition-duration: 1s;
     padding-bottom: 50px;
-    box-shadow: 0px -18px 5px -7px rgba(0, 0, 0, 0.282);
+    /* box-shadow: 0px -18px 5px -7px rgba(0, 0, 0, 0.282); */
 }
 .photo-pp:hover {
     opacity: 0.5;
@@ -378,7 +379,7 @@ h1 {
     font-family: "Roboto condensed";
     color: #ffffff;
     width: 30%;
-    margin-top: 20px;
+    margin-top: 80px;
     text-wrap: balance;
 }
 #t-propos {
@@ -416,7 +417,7 @@ h1 {
 /* container Mes compétences */
 
 .container-skill {
-    background-color: #f3ebd0;
+    background-color: #007ca8 !important;
     display: block;
     margin: 0 0px;
     padding: 0 8px 20px 8px;
@@ -430,7 +431,7 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.158);
     padding: 10px;
     
@@ -442,7 +443,7 @@ h1 {
     margin: 0 0 0 10px;
     font-size: 1.5em;
     font-weight: 900;
-    color: #000000;     
+    color: #ffffff;     
 }
 .fa-dev,
 .fa-image,

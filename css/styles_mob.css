@@ -457,8 +457,11 @@
         align-items: center;
         width: 60%;
         margin: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(255, 255, 255);
         padding: 10px;
+    }
+    .size-skill h2{
+        font-weight: 300;
     }
     .fa-dev,
     .fa-image,
@@ -472,8 +475,8 @@
         padding: 50px 0 10px 0px;
         margin: 0 0 0 10px;
         font-size: 1.5em;
-        font-weight: 900;
-        color: #000000;     
+        font-weight: 500;
+        color: #ffffff;     
     }
 
     .bl-mid {
@@ -711,7 +714,7 @@ a {
 /* container Mes compétences */
 
 .container-skill {
-    background-color: #f3ebd0;
+    background-color: #007ca8;
     display: block;
     margin: 10px -8px;
     padding: 0 8px 20px 8px;
@@ -725,7 +728,7 @@ a {
     align-items: center;
     width: 90%;
     margin: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.281);
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.158);
     padding: 10px;
     
