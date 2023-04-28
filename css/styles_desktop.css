@@ -87,7 +87,7 @@ h3 {
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition-timing-function: step-start 0.5s ;
+        transition-timing-function: step-start 0.5s;
         opacity: 0.7;
         transition-duration: 0.3s;
     }
@@ -231,9 +231,6 @@ h1 {
 
 /* HEADER // LOGO */
 
-#logo{
-   top: fixed;
-}
 .logo {
     width: 10%;
     display: flex;
@@ -386,7 +383,6 @@ h1 {
     color: #ffffff;
     width: 30%;
     margin-top: 50px;
-    text-wrap: balance;
     text-align: justify;
     line-height: 25px;
 }
@@ -431,7 +427,6 @@ h1 {
     margin: 0 0px;
     padding: 0 8px 20px 8px;
     text-align: center;
-    text-wrap:balance;
 }
 
 .size-skill{
@@ -537,7 +532,7 @@ h1 {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition-timing-function: step-start 0.5s ;
+    transition-timing-function: step-start 0.5s;
     opacity: 0.7;
     transition-duration: 0.3s;
 }

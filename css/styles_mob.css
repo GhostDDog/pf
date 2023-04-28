@@ -344,7 +344,6 @@
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition-timing-function: step-start 0.5s ;
         opacity: 0.7;
         transition-duration: 0.3s;
     }
@@ -466,7 +465,6 @@
         background-color: #30353b;
         margin: 0 -8px;
         padding: 0 8px 20px 8px;
-        text-wrap: balance;
         text-align: center;
     }
     .size-skill{
@@ -579,7 +577,6 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition-timing-function: step-start 0.5s ;
     opacity: 0.7;
     transition-duration: 0.3s;
 }
@@ -623,7 +620,7 @@ a {
 
 @media screen and (max-width:480px) {
     body {
-    font-family: "Roboto", "Roboto Condensed", "Scope One" "sans-serif";
+    font-family: "Roboto", "Roboto Condensed", "Scope One", sans-serif;
     background-color: black !important;
     background-repeat: no-repeat;
     background-position: top;
@@ -714,7 +711,6 @@ a {
     display: block;
     margin: 10px -8px;
     padding: 0 8px 20px 8px;
-    text-wrap: balance;
     text-align: center;
 }
 
