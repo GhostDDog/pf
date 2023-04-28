@@ -382,32 +382,31 @@
         font-weight: 900;
         font-size: 13pt;
     }
-
-/* flèche Page UP */
-
-    .page-up {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 70px;
-        background-color: #f3ebd0;
-        color: black;
-        width: 10px;
-        height: 15px;
-        padding: 10px;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 1.5em;
-        opacity: 0.8;
-    }
-    .page-up:hover {
-        background-color: #a09b8b;
-        transition-duration: 0.3s;
-        cursor: pointer;
-    
-    }
-    
-       /* FOOTER */
+    .fa-arrow-up{color: rgb(255, 255, 255);}
+.page-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    background-color: #30353b;
+    color: rgb(255, 255, 255);
+    width: 10px;
+    height: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+.page-up:hover {
+    color: rgb(255, 255, 255);
+    background-color: #007ca8;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+/* FOOTER */
     
     footer {
         background-color: #000000;
@@ -618,30 +617,6 @@
 .card,
 a {
     text-decoration: none;
-}
-
-.fa-arrow-up{color: black;}
-.page-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 70px;
-    background-color: #f3ebd0;
-    color: black;
-    width: 10px;
-    height: 15px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.5em;
-    opacity: 0.8;
-}
-.page-up,.fa-arrow-up:hover {
-    background-color: #a09b8b;
-    color: rgb(255, 255, 255);
-    transition-duration: 0.3s;
-    cursor: pointer;
 }
 
         /* HEADER // LOGO + MENU en dessous de 480px */
@@ -856,26 +831,27 @@ textarea {
 
 /* flèche Page UP */
 
-.fa-arrow-up{color: black;}
+.fa-arrow-up{color: rgb(255, 255, 255);}
 .page-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 70px;
-    background-color: #f3ebd0;
-    color: black;
+    border-radius: 30%;
+    background-color: #30353b;
+    color: rgb(255, 255, 255);
     width: 10px;
     height: 15px;
     padding: 10px;
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     font-size: 1.5em;
     opacity: 0.8;
 }
-.page-up,.fa-arrow-up:hover {
-    background-color: #a09b8b;
+.page-up:hover {
     color: rgb(255, 255, 255);
+    background-color: #007ca8;
     transition-duration: 0.3s;
     cursor: pointer;
 }

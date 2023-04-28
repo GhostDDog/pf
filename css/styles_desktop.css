@@ -586,26 +586,27 @@ a {
     display: none;
 }
 
-.fa-arrow-up{color: black;}
-
+.fa-arrow-up{color: rgb(255, 255, 255);}
 .page-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 70px;
-    background-color: #f3ebd0;
-    color: black;
+    border-radius: 30%;
+    background-color: #30353b;
+    color: rgb(255, 255, 255);
     width: 10px;
     height: 15px;
     padding: 10px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     font-size: 1.5em;
     opacity: 0.8;
 }
-.page-up,.fa-arrow-up:hover {
-    background-color: #a09b8b;
+.page-up:hover {
     color: rgb(255, 255, 255);
+    background-color: #007ca8;
     transition-duration: 0.3s;
     cursor: pointer;
 }
