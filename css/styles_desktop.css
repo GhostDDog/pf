@@ -132,7 +132,12 @@ h3 {
     box-shadow: 0 -100px 100px 20px rgb(0, 0, 0), inset 0px 5px 5px rgba(0, 0, 0, 0.322);
 }
 #bgc-form h1 {
-    font-family: roboto;
+    font-family: "Roboto";
+}
+.name {
+    margin-left: 10px;
+    text-align: left;
+    opacity: 0;
 }
 input {
     border:0;
@@ -140,6 +145,7 @@ input {
 input:focus,textarea:focus{
     background-color: #f3ebd0;
 }
+
 form {
     display: flex;
     flex-wrap: wrap;
@@ -148,12 +154,14 @@ form {
     color: #FFF;
 }
 
-label {
-    margin-left: 5px;
-    text-align: left !important;
-}
+
+
 .form-group {
+    display: flex;
+    flex-direction: column;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form-group input{
     width: 300px;	
