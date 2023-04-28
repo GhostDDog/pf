@@ -325,7 +325,7 @@
         height: 300px;
         position: relative;
         overflow: hidden;
-        border-radius: 10px;
+        /* border-radius: 10px; */
     }
     .card-image img {
         width: 100% !important;
@@ -561,7 +561,7 @@
     height: 300px;
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .card-image img {
     width: 100% !important;
