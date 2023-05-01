@@ -54,6 +54,11 @@ h3 {
     justify-content: center;
     align-items: center;
     z-index: 1001;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .container-loader.hide {
+    opacity: 0;
   }
   .loader {
     border: 16px solid #f3f3f3; /* Gris clair */
