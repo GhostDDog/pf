@@ -273,17 +273,6 @@ h1 {
     padding: 20px 0 10px 0;
 }
 
-/* .bann-header {
-    background-color: #000000;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: -10px;
-    margin-right: -8px;
-    align-items: center;
-} */
-
 .t1 {
     font-size: 1.5em;
     font-weight: bolder;
@@ -330,7 +319,6 @@ h1 {
     color: #000000 ;
     border-radius: 30px;
     padding: 10px 25px;
-    /* font-weight: 500; */
     background-color: #007ca8;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -338,9 +326,6 @@ h1 {
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
-     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1); */
     outline: none;
   }
 .btn-m {
@@ -382,7 +367,7 @@ h1 {
   
 /* ----------- */
 
-/* conteneur A PROPOS */
+/* container A PROPOS */
 
 .container-bio {
     background-color: #30353b;
@@ -403,7 +388,6 @@ h1 {
     height: auto;
     transition-duration: 1s;
     padding-bottom: 50px;
-    /* box-shadow: 0px -18px 5px -7px rgba(0, 0, 0, 0.282); */
 }
 .photo-pp:hover {
     opacity: 0.5;
