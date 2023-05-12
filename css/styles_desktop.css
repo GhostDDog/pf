@@ -76,7 +76,7 @@ h3 {
     100% { transform: rotate(360deg); }
   }
 
-  .blur {
+  /* .blur {
     margin-top: -45px;
     text-align: center;
     filter: blur(25px);
@@ -85,7 +85,7 @@ h3 {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-  }
+  } */
 
 @media screen and (min-width:1080px) {
     .card {
