@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <div class="container-loader">
+    <div id="loader" class="container-loader">
         <div class="loader"></div>
     </div>
     <div class="main">
@@ -108,12 +108,8 @@
             </div>
         </footer>
     </div>
-    <script>
-        window.addEventListener('load', function() {
-        document.querySelector('.container-loader').style.animationPlayState = 'running';
-        document.querySelector('.container-loader').style.display = 'none';
-        });
-    </script>
+    <script src="js/loader.js"></script>
+    
 </body>
 
 </html>

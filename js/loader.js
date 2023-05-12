@@ -1,5 +1,6 @@
 window.addEventListener('load', function() {
     document.querySelector('.container-loader').style.animationPlayState = 'running';
-    document.querySelector('.container-loader').style.display = 'none';
     });
-
+window.onload = function() {
+        document.getElementById("loader").style.display = "none";
+    };
