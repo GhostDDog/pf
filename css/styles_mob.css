@@ -89,6 +89,22 @@
         opacity: 1;
         top: 0;
     }
+    #t-graph {
+        display: flex;
+        padding: 50px 0 10px 0px;
+        margin: 0 0 0 10px;
+        font-size: 1.5em;
+        font-weight: 500 !important;
+        color: #ffffff !important;
+        margin-left: 60px !important;
+    }
+    .border span {
+        background-color: #007ca8;
+        display: block;
+        width: 50px;
+        height: 3px;
+        margin-left: 60px !important;
+    }
 
 /* ----- menu ----- */
 
@@ -299,6 +315,7 @@
         font-size: 1.5em;
         font-weight: 500 !important;
         color: #ffffff !important;
+        margin-left: 70px;
     }
 
 
@@ -766,12 +783,19 @@ a {
 
 #t-graph {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 50px 0 10px 0px;
-    margin: 0 0 0 10px;
+    margin-left: 30px !important;
     font-size: 1.5em;
     font-weight: 900;
     color: #000000;
+}
+.border span {
+    background-color: #007ca8;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-left: 30px !important;
 }
 
 /* -----FORMULAIRE----- */
