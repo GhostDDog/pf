@@ -399,6 +399,7 @@
         font-size: 13pt;
     }
     .fa-arrow-up{color: rgb(255, 255, 255);}
+
 .page-up {
     display: flex;
     justify-content: center;
@@ -817,7 +818,7 @@ a {
     color: #FFF;
 }
 
-.form-group ,input{
+.form-group, input,textarea{
     width: auto;
     height: auto;
     width: 90% !important;	
@@ -826,9 +827,10 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 99% !important;	
+    /* width: auto;	 */
     resize: none;
     align-items: center;
+    width: 96% !important;
 }
 .btn{
     display: flex;
@@ -880,4 +882,9 @@ textarea {
     cursor: pointer;
 }
 
+}
+@media screen and (max-width:371px) {
+    textarea {
+        width: 97% !important;
+    }
 }

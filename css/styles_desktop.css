@@ -90,6 +90,16 @@ h3 {
 .row2{
     padding: 20px 50px;
 }
+.b-about span {
+    background-color: #007ca8;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 1px;
+}
 
 @media screen and (min-width:1080px) {
     .card {
@@ -215,7 +225,9 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 320px !important;	
+    width: 320px !important;
+    margin-left: auto;	
+    margin-right: auto;
     resize: none;
 }
 .form-control {
@@ -517,6 +529,7 @@ h1 {
     height: 3px;
     margin-left: 70px !important;
 }
+
 #t-graph{
     color:white !important;
     font-family: "Roboto";
