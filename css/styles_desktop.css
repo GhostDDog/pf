@@ -191,6 +191,10 @@ h3 {
 #bgc-form h1 {
     font-family: "Roboto";
 }
+.multi-text {
+    color: #0098cf;
+}
+
 .name {
     margin-left: 10px;
     text-align: left;
@@ -258,6 +262,7 @@ textarea {
     background-color: #fff;
     color: black;
     transition-duration: 0.3s;
+    box-shadow: 0 0 20px #007ca8;
 }
 
 
@@ -439,7 +444,20 @@ h1 {
     font-weight: 500;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
+@keyframes slideRight {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .dezap1 {
     animation: fadein 1s;
   }

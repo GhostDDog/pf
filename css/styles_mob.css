@@ -244,6 +244,19 @@
     font-weight: 500;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 }
 .bio p{
     padding-bottom: 10px;

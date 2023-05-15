@@ -53,7 +53,7 @@
         </div>
         <!--block A PROPOS-->
         <div id="bgc-form">
-        <h1>Contactez-moi</h1>
+        <h1>Contactez <span class="multi-text"></span></h1>
         <form id="formu" action="https://formspree.io/f/xdovyepa"
 	    method="POST">
         <div class="form-group">
@@ -118,7 +118,17 @@
                 <div class="copy">Copyright © Romain N 2023</div>
             </div>
         </footer>
-    </div>    
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.multi-text', {
+          strings: ['Moi', 'Romain'],
+          typeSpeed: 100,
+          backSpeed: 200,
+          backDelay: 1000,
+          loop: true
+        });
+      </script>
 </body>
 
 </html>
