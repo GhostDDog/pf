@@ -98,7 +98,7 @@
         color: #ffffff !important;
         margin-left: 60px !important;
     }
-    .border span {
+    .ligne {
         background-color: #007ca8;
         display: block;
         width: 50px;
@@ -804,7 +804,7 @@ a {
     font-weight: 900;
     color: #000000;
 }
-.border span {
+.ligne {
     background-color: #007ca8;
     display: block;
     width: 50px;
