@@ -89,6 +89,21 @@
         opacity: 1;
         top: 0;
     }
+    #t-comp {
+        display: flex;
+        padding: 50px 0 10px 0px;
+        margin: 0 0 0 10px;
+        font-size: 1.5em;
+        font-weight: 500 !important;
+        color: #ffffff !important;
+        margin-left: 60px !important;
+    }
+    .ligne2 {
+        background-color: #ff0000;
+        width: 50px;
+        height: 3px;
+        margin-left: 70px;
+    }
     #t-graph {
         display: flex;
         padding: 50px 0 10px 0px;
@@ -105,7 +120,7 @@
         height: 3px;
         margin-left: 60px !important;
     }
-
+    
 /* ----- menu ----- */
 
 .custom-btn {
@@ -320,6 +335,7 @@
         font-size: 1.5em;
         font-weight: 500;
         color: #ffffff;
+        margin-left: 70px;
     }
 #t-graph {
         display: flex;
@@ -795,7 +811,21 @@ a {
 }
 
 /* conteneur des cards */
-
+#t-comp {
+        display: flex;
+        /* justify-content: center; */
+        padding: 50px 0 10px 0px;
+        margin-left: 30px !important;
+        font-size: 1.5em;
+        font-weight: 900;
+        color: #000000;
+    }
+.ligne2 {
+        background-color: #ff0000;
+        width: 50px;
+        height: 3px;
+        margin-left: 70px;
+}
 #t-graph {
     display: flex;
     /* justify-content: center; */
@@ -812,6 +842,7 @@ a {
     height: 3px;
     margin-left: 30px !important;
 }
+
 
 /* -----FORMULAIRE----- */
 

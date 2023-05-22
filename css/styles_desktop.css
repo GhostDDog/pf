@@ -539,7 +539,19 @@ h1 {
     height: 3px;
     margin-left: 70px;
 }
-
+#ligne2 {
+    display: flex;
+    background-color: #007ca8;
+    width: 50px;
+    height: 3px;
+    margin-left: 70px;
+}
+#t-comp{
+    color:white !important;
+    font-family: "Roboto";
+    font-weight: 400 !important;
+    margin-left: 70px !important; 
+}
 #t-graph{
     color:white !important;
     font-family: "Roboto";
