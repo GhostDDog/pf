@@ -349,7 +349,7 @@
         box-shadow : 0 10px 5px rgba(0, 0, 0, 0.275), 
         0 12px 20px rgba(0, 0, 0, 0.314);
         transform: perspective(2400px) translateY(-1%) rotateX(15deg);
-        transition-duration: 0.3s;
+        transition-duration: 0.5s;
     }
     .card-image {
         height: 300px;
@@ -365,7 +365,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition-duration: 0.3s;
+        transition-duration: 0.5s;
     }
     .card:hover img {
         width: 80%;
@@ -375,7 +375,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0.7;
-        transition-duration: 0.3s;
+        transition-duration: 0.5s;
     }
     
     .card:hover .card-title {
@@ -485,7 +485,7 @@
         display: contents;
     }
     .card:hover {
-        transition-duration: 0.3s;
+        transition-duration: 0.5s;
         box-shadow : 0 10px 5px rgba(0, 0, 0, 0.275), 
         0 12px 20px rgba(0, 0, 0, 0.314);
     }
@@ -577,13 +577,14 @@
     border-radius: 10px;
     cursor: pointer;
     perspective: 2500px;
+    transition-duration: 0.5s;
     }
 
 .card:hover {
     box-shadow : 0 10px 5px rgba(0, 0, 0, 0.275), 
                  0 12px 20px rgba(0, 0, 0, 0.314);
-    transform: perspective(2400px) translateY(-1%) rotateX(15deg);
-    transition-duration: 0.3s;
+    transform: perspective(2400px) translateY(-1%) rotateX(20deg);
+    transition-duration: 0.5s;
 }
 .card-image {
     height: 300px;
@@ -599,7 +600,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 .card:hover img {
     width: 80%;
@@ -609,7 +610,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.7;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 .card:hover .card-title {
