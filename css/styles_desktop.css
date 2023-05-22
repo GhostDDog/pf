@@ -110,8 +110,8 @@ h3 {
         }
     
     .card:hover {
-        box-shadow : 0 10px 10px rgba(0, 0, 0, 0.562), 
-                     0 15px 10px rgba(0, 140, 255, 0.562);
+        box-shadow : 0 10px 5px rgba(0, 0, 0, 0.275), 
+        0 12px 20px rgba(0, 0, 0, 0.314);
         transform: perspective(2400px) translateY(-1%) rotateX(15deg);
         transition-duration: 0.3s;
     }
@@ -567,8 +567,8 @@ h1 {
 	}
 
 .card:hover {
-    box-shadow : 0 10px 10px rgba(0, 0, 0, 0.562), 
-		         0 15px 10px rgba(0, 140, 255, 0.562);
+    box-shadow : 0 10px 5px rgba(0, 0, 0, 0.275), 
+    0 12px 20px rgba(0, 0, 0, 0.314);
     transform: perspective(2400px) translateY(-1%) rotateX(15deg);
     transition-duration: 0.3s;
 }
