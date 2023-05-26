@@ -561,7 +561,7 @@ h1 {
 
 .desktop {
     display: block;
-    width: 100%;
+    width: 50%;
     margin-left: 10px;
 }
 
@@ -644,6 +644,7 @@ h1 {
 .para-c {
     font-weight: 900;
     font-size: 13pt;
+    will-change: transform;
 }
 
 .card,

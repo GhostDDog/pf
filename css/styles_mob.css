@@ -403,7 +403,6 @@
         padding: 0px;
         justify-content: space-between;
         background-color: #000000;
-        
     }
     
     .card-title {
@@ -427,6 +426,7 @@
     .para-c {
         font-weight: 900;
         font-size: 13pt;
+        will-change: transform;
     }
     .fa-arrow-up{color: rgb(255, 255, 255);}
 
