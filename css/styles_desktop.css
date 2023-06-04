@@ -658,15 +658,15 @@ a {
     cursor: pointer;
 }
 
-footer {
+/* footer {
     background-color: #000000;
     background-size: auto;
     color: white;
     width: auto;
     padding-left: 0;
-    margin: 10px -8px -10px -8px;
-    /* line-height: 1.5em; */
-}
+    margin: 10px -8px -50px -8px;
+    line-height: 1.5em;
+} */
 
 footer a {
     text-align: left !important;
