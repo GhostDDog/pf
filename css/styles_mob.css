@@ -397,7 +397,7 @@
     
     .card-title {
         width: 100%;
-        height: 0px;
+        height: 100px;
         overflow:hidden;
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
@@ -445,7 +445,7 @@
 }
 /* FOOTER */
     
-    footer {
+    #footer {
         background-color: #000000;
         background-size: auto;
         color: white;
@@ -455,15 +455,15 @@
         line-height: 1.5em;
     }
     
-    footer a {
+    #footer a {
         text-align: left !important;
     }
     
-    footer a:visited {
+    #footer a:visited {
         color: white !important;
     }
     
-    footer a:link {
+    #footer a:link {
         color: white !important;
     }
 
