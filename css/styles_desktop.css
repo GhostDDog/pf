@@ -658,25 +658,25 @@ a {
     cursor: pointer;
 }
 
-#footer {
+footer {
     background-color: #000000;
     background-size: auto;
     color: white;
     width: auto;
     padding-left: 0;
-    margin: 10px -8px -50px -8px;
+    margin: 10px -8px -10px -8px;
     line-height: 1.5em;
 }
 
-#footer a {
+footer a {
     text-align: left !important;
 }
 
-#footer a:visited {
+footer a:visited {
     color: white !important;
 }
 
-#footer a:link {
+footer a:link {
     color: white !important;
 }
 
