@@ -454,20 +454,11 @@
         margin: 0 -8px -50px -10px;
         line-height: 1.5em;
     }
-    
-    footer a {
-        text-align: left !important;
-    }
-    
-    footer a:visited {
-        color: white !important;
-    }
-    
+      
     footer a:link {
         color: white !important;
     }
-
-        
+   
     h3 {
         letter-spacing: 0.1em;
         font-weight: 500;
