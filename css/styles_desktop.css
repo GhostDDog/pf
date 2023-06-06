@@ -54,6 +54,8 @@ li {
 }
 li a:hover {
     color: #007ca8;
+    background: transparent;
+    transition-duration: 0.2s;
 }
 @keyframes fadeOut {
     0% { opacity: 1; }
@@ -682,10 +684,6 @@ footer {
 
 footer a {
     text-align: left !important;
-}
-
-footer a:visited {
-    color: white !important;
 }
 
 footer a:link {
