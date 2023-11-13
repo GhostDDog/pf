@@ -23,6 +23,9 @@
     a {
         color: rgb(255, 255, 255);
     }
+    h2{
+        text-align: center;
+    }
     
     h3 {
         font-family: "Roboto", "sans-serif";
@@ -643,9 +646,17 @@
     color: #FFF;
     border-radius: 0;
 }
+
+/* formulaire contact */
 .phraseContact {
     text-align: center;
     font-size: 0.8rem;
+}
+
+.multi-text {
+    color: #0098cf;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .card,

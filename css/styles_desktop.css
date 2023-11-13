@@ -27,7 +27,9 @@ body {
 a {
     color: rgb(255, 255, 255);
 }
-
+h2 {
+    text-align: center;
+}
 h3 {
     font-family: "Roboto", "sans-serif";
 }
@@ -189,6 +191,8 @@ li a:hover {
 }
 .multi-text {
     color: #0098cf;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .name {
