@@ -643,7 +643,10 @@
     color: #FFF;
     border-radius: 0;
 }
-
+.phraseContact {
+    text-align: center;
+    font-size: 0.8rem;
+}
 
 .card,
 a {
